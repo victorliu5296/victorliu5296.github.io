@@ -1,3 +1,3 @@
-[submodule "MyFreshWebsite/themes/PaperMod"]
-	path = MyFreshWebsite/themes/PaperMod
+[submodule "source/themes/PaperMod"]
+	path = source/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
