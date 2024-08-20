@@ -1,52 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Victor Liu&#39;s Website</title>
-    <link>http://localhost:1313/</link>
+    <link>https://victorliu5296.github.io/</link>
     <description>Recent content on Victor Liu&#39;s Website</description>
-    <image>
-      <title>Victor Liu&#39;s Website</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Aug 2024 12:00:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://victorliu5296.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about-me/</link>
+      <link>https://victorliu5296.github.io/about-me/</link>
       <pubDate>Tue, 20 Aug 2024 12:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/about-me/</guid>
+      <guid>https://victorliu5296.github.io/about-me/</guid>
       <description>About Me High school student! I like mathematics </description>
     </item>
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:1313/portfolio/</link>
+      <link>https://victorliu5296.github.io/portfolio/</link>
       <pubDate>Tue, 20 Aug 2024 12:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/</guid>
+      <guid>https://victorliu5296.github.io/portfolio/</guid>
       <description>Portfolio Timer Project Check out my timer project here. It&amp;rsquo;s a simple timer built with HTML and JavaScript.</description>
     </item>
     <item>
       <title>Writing math with Hugo</title>
-      <link>http://localhost:1313/posts/math-test/</link>
+      <link>https://victorliu5296.github.io/posts/math-test/</link>
       <pubDate>Tue, 20 Aug 2024 11:53:05 -0400</pubDate>
-      <guid>http://localhost:1313/posts/math-test/</guid>
-      <description>Does this render KaTeX
-$$1+1=2$$
-[1+1=2]
-$\frac{1}{2}$
-(\frac{1}{2})
-$$\frac{1}{2}$$
-[\frac{1}{2}]</description>
+      <guid>https://victorliu5296.github.io/posts/math-test/</guid>
+      <description>Does this render KaTeX&#xA;$$1+1=2$$&#xA;[1+1=2]&#xA;$\frac{1}{2}$&#xA;(\frac{1}{2})&#xA;$$\frac{1}{2}$$&#xA;[\frac{1}{2}]</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://victorliu5296.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 20 Aug 2024 11:28:05 -0400</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-print(&amp;#34;Hello World&amp;#34;) </description>
+      <guid>https://victorliu5296.github.io/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;print(&amp;#34;Hello World&amp;#34;) </description>
     </item>
   </channel>
 </rss>

@@ -3,6 +3,10 @@ languageCode: en-us
 title: Victor Liu's Website
 theme: ["PaperMod"]
 
+build:
+  pre:
+    - replace-delimiters.sh
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false
