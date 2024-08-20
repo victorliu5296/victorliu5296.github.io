@@ -34,11 +34,11 @@
       <guid>http://localhost:1313/posts/math-test/</guid>
       <description>Does this render KaTeX
 $$1+1=2$$
-\[1+1=2\]
+[1+1=2]
 $\frac{1}{2}$
-\(\frac{1}{2}\)
+(\frac{1}{2})
 $$\frac{1}{2}$$
-\[\frac{1}{2}\]</description>
+[\frac{1}{2}]</description>
     </item>
     <item>
       <title>My First Post</title>
