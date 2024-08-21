@@ -3,10 +3,6 @@ languageCode: en-us
 title: Victor Liu's Website
 theme: ["PaperMod"]
 
-build:
-  pre:
-    - replace-delimiters.sh
-
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -25,50 +21,21 @@ params:
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-
-  # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true # needs to be explicitly set
+    subtitle: "Hi, I'm Victor. I'm a high school student. I enjoy mathematics. Here, I share my thoughts and ideas, maybe notes at times. Check [about me](/about-me/) for more information."
     buttons:
-      - name: Posts
+      - name: Blog posts
         url: posts
-      - name: Tags
-        url: tags
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Welcome"
-    Content: >
-      Hi! I'm Victor, a high school student. I enjoy mathematics. Here, I share my thoughts and ideas, maybe notes at times.
-      Check [about me](/about-me/) for more information.
-
+      - name: Math Notes
+        url: math-notes
   socialIcons:
     - name: github
       url: "https://github.com/victorliu5296"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
   editPost:
-    URL: "https://github.com/victorliu5296/victorliu5296.github.io/content/posts"
+    URL: "https://github.com/victorliu5296/victorliu5296.github.io/source/content/posts"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -83,6 +50,7 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: about-me
