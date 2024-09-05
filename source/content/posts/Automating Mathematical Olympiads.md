@@ -2,8 +2,8 @@
 title: 'Automating Mathematical Olympiads'
 date: 2024-09-05T18:35:18-04:00
 math: katex
-categories: []
-tags: []
+categories: [Machine Learning]
+tags: [Artificial Intelligence, Machine Learning, Mathematical Olympiads, Mathematics, Computer Science, Competitive Programming, Competitive Mathematics]
 weight: 100
 ---
 
