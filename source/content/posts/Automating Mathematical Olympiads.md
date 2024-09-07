@@ -19,6 +19,8 @@ According Matt Shumer himself, the results didn't seem very meaningful with an 8
 
 What are the implications of this? It's likely that it will get exponentially better as it scales up. Maybe it might plateau at some point. But until then, this is a significant advancement in developing AGI.
 
+As hardware gets cheaper and faster, with companies like Groq on the rise, this type of research will become ever more impactful and deployable.
+
 Here, I would like to focus on a very specific set of problems: specifically, those of high-school level competitive computer science and mathematics olympiads. I am convinced that the existing techniques are plenty sufficient to solve these problems at over 99% accuracy.
 
 As evidence of this, they managed to get 99.2% in the grade school math problems benchmark GSM8K (keep in mind, some problems are mislabeled, so the model likely got the right solution, but the label solution would've been incorrect in those cases).
