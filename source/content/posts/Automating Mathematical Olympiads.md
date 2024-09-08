@@ -5,6 +5,7 @@ math: katex
 categories: [Machine Learning]
 tags: [Artificial Intelligence, Machine Learning, Mathematical Olympiads, Mathematics, Computer Science, Competitive Programming, Competitive Mathematics]
 weight: 100
+draft: true
 ---
 
 Today, Matt Shumer, CEO of HyperWrite AI, announced the newest top open-source model, Reflection 70B. It is a fine-tuned version of Llama 3.1 70B trained to reflect on its own output using a technique called "Reflection-Tuning", and correct its own mistakes accordingly.

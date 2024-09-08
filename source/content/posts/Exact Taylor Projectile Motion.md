@@ -5,7 +5,7 @@ math: katex
 categories: [Physics]
 tags: [Mathematics, Physics, Projectile Motion, Taylor Expansion, Vectors]
 weight: 100
-draft: true
+draft: false
 ---
 
 I recently built a physics simulator without air resistance, modeling a body’s motion through a Taylor expansion based on its initial conditions:
