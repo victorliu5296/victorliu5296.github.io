@@ -8,6 +8,8 @@ weight: 100
 draft: false
 ---
 
+Edit 2: As of September 12, 2024, OpenAI has released their new "o1" model, which bases itself upon the same principles listed here. The results are very impressive, with several hard reasoning problems being solved with high accuracy, even superior to human experts in some areas.
+
 Edit: As of September 9, 2024, it seems like the results of the model were fraudulent. However, I think the ideas in the post are still valid, so I will leave it up for now. Please make sure to take it with a grain of salt.
 
 Today, Matt Shumer, CEO of HyperWrite AI, announced the newest top open-source model, Reflection 70B. It is a fine-tuned version of Llama 3.1 70B trained to reflect on its own output using a technique called "Reflection-Tuning", and correct its own mistakes accordingly.
