@@ -69,3 +69,9 @@ menu:
     #   name: tags
     #   url: /tags/
     #   weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
