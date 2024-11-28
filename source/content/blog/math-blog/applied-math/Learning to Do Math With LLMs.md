@@ -3,7 +3,10 @@ title: 'Learning to Do Math With LLMs'
 date: 2024-09-15T12:43:12-04:00
 math: katex
 description: "An approach to formal verification using LLMs following OpenAI's o1 model family."
-categories: [Machine Learning, Mathematics]
+categories:
+  - Applied Mathematics
+topics:
+  - Machine Learning
 tags: [LLMs, Formal Verification, Mathematics, Programming, Reinforcement Learning, OpenAI o1, DeepSeek Prover]
 weight: 100
 draft: false

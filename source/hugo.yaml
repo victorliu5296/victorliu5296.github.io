@@ -1,7 +1,7 @@
 baseURL: https://victorliu5296.github.io/
+theme: "PaperMod"
 languageCode: en-us
 title: Victor Liu's Website
-theme: ["PaperMod"]
 
 buildDrafts: false
 buildFuture: false
@@ -11,16 +11,33 @@ minify:
   disableXML: true
   minifyOutput: true
 
+taxonomies:
+  folder: folders
+  category: categories
+  topic: topics
+  tag: tags
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Victor Liu's Website
-  description: "Victor Liu's personal website"
+  description: "Victor Liu's personal blog website"
   keywords: [Blog, Portfolio, PaperMod]
   author: Victor Liu
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
+
+  showDescription: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  ShowToc: true
 
   profileMode:
     enabled: true # needs to be explicitly set
@@ -30,6 +47,7 @@ params:
         url: posts
       - name: Math Notes
         url: math-notes
+
   socialIcons:
     - name: github
       url: "https://github.com/victorliu5296"
@@ -51,6 +69,11 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+permalinks:
+  categories: "/categories/:slug/" # Links to category pages
+  topics: "/topics/:slug/"         # Links to topic pages
+  posts: "/:categories/:topics/:slug/" # Clean post URLs
+
 menu:
   main:
     - identifier: about-me
@@ -61,18 +84,22 @@ menu:
       name: Portfolio
       url: /portfolio/
       weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: topics
+      name: Topics
+      url: /topics/
+      weight: 40
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 50
     - identifier: search
       name: Search
       url: /search/
-      weight: 30
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 30
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 40
+      weight: 99999
 
 outputs:
   home:

@@ -1,0 +1,15 @@
+<h1>{{ .Title }}</h1>
+<p>{{ .Description }}</p>
+
+<!-- Search Bar -->
+<form action="/search/" method="get">
+    <input type="text" name="q" placeholder="Search..." />
+    <button type="submit">Search</button>
+</form>
+
+<!-- Navigation Buttons -->
+<div class="search-navigation">
+    <a href="/categories/" class="btn">Browse Categories</a>
+    <a href="/topics/" class="btn">Browse Topics</a>
+    <a href="/tags/" class="btn">Browse Tags</a>
+</div>
