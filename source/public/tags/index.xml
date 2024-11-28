@@ -9,22 +9,1492 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 11:53:05 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 21:27:12 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Tue, 20 Aug 2024 11:53:05 -0400</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <title>Circle</title>
+      <link>http://localhost:1313/tags/circle/</link>
+      <pubDate>Mon, 21 Oct 2024 21:27:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/circle/</guid>
       <description></description>
     </item>
     <item>
-      <title>Math</title>
-      <link>http://localhost:1313/tags/math/</link>
-      <pubDate>Tue, 20 Aug 2024 11:53:05 -0400</pubDate>
-      <guid>http://localhost:1313/tags/math/</guid>
+      <title>Isoperimetric Problem</title>
+      <link>http://localhost:1313/tags/isoperimetric-problem/</link>
+      <pubDate>Mon, 21 Oct 2024 21:27:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/isoperimetric-problem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proof</title>
+      <link>http://localhost:1313/tags/proof/</link>
+      <pubDate>Mon, 21 Oct 2024 21:27:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/proof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometric Product</title>
+      <link>http://localhost:1313/tags/geometric-product/</link>
+      <pubDate>Mon, 21 Oct 2024 18:56:06 -0400</pubDate>
+      <guid>http://localhost:1313/tags/geometric-product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ito Calculus</title>
+      <link>http://localhost:1313/tags/ito-calculus/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ito-calculus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Itô Calculus</title>
+      <link>http://localhost:1313/tags/it%C3%B4-calculus/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/it%C3%B4-calculus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Itô Chain Rule</title>
+      <link>http://localhost:1313/tags/it%C3%B4-chain-rule/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/it%C3%B4-chain-rule/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Itô Differential Mapping</title>
+      <link>http://localhost:1313/tags/it%C3%B4-differential-mapping/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/it%C3%B4-differential-mapping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Itô&#39;s Formula</title>
+      <link>http://localhost:1313/tags/it%C3%B4s-formula/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/it%C3%B4s-formula/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Itô&#39;s Lemma</title>
+      <link>http://localhost:1313/tags/it%C3%B4s-lemma/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/it%C3%B4s-lemma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic Analysis</title>
+      <link>http://localhost:1313/tags/stochastic-analysis/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/stochastic-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conditional Expectation</title>
+      <link>http://localhost:1313/tags/conditional-expectation/</link>
+      <pubDate>Fri, 11 Oct 2024 22:35:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/conditional-expectation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hilbert Space</title>
+      <link>http://localhost:1313/tags/hilbert-space/</link>
+      <pubDate>Fri, 11 Oct 2024 22:35:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/hilbert-space/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Least Squares</title>
+      <link>http://localhost:1313/tags/least-squares/</link>
+      <pubDate>Fri, 11 Oct 2024 22:35:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/least-squares/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orthogonal Projection</title>
+      <link>http://localhost:1313/tags/orthogonal-projection/</link>
+      <pubDate>Fri, 11 Oct 2024 22:35:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/orthogonal-projection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measurability</title>
+      <link>http://localhost:1313/tags/measurability/</link>
+      <pubDate>Fri, 11 Oct 2024 22:30:45 -0400</pubDate>
+      <guid>http://localhost:1313/tags/measurability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Random Variables</title>
+      <link>http://localhost:1313/tags/random-variables/</link>
+      <pubDate>Fri, 11 Oct 2024 22:30:45 -0400</pubDate>
+      <guid>http://localhost:1313/tags/random-variables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sigma-Algebra</title>
+      <link>http://localhost:1313/tags/sigma-algebra/</link>
+      <pubDate>Fri, 11 Oct 2024 22:30:45 -0400</pubDate>
+      <guid>http://localhost:1313/tags/sigma-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Differential Equations</title>
+      <link>http://localhost:1313/tags/differential-equations/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/differential-equations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dual Spaces</title>
+      <link>http://localhost:1313/tags/dual-spaces/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/dual-spaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenfunctions</title>
+      <link>http://localhost:1313/tags/eigenfunctions/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/eigenfunctions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Series</title>
+      <link>http://localhost:1313/tags/fourier-series/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/fourier-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Transform</title>
+      <link>http://localhost:1313/tags/fourier-transform/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/fourier-transform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Function Spaces</title>
+      <link>http://localhost:1313/tags/function-spaces/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/function-spaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lagrange Interpolation</title>
+      <link>http://localhost:1313/tags/lagrange-interpolation/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/lagrange-interpolation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laplace Transform</title>
+      <link>http://localhost:1313/tags/laplace-transform/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/laplace-transform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Transformations</title>
+      <link>http://localhost:1313/tags/linear-transformations/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/linear-transformations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematical Physics</title>
+      <link>http://localhost:1313/tags/mathematical-physics/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mathematical-physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operator Theory</title>
+      <link>http://localhost:1313/tags/operator-theory/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/operator-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spectral Theory</title>
+      <link>http://localhost:1313/tags/spectral-theory/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/spectral-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taylor Series</title>
+      <link>http://localhost:1313/tags/taylor-series/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/tags/taylor-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Borel Measure</title>
+      <link>http://localhost:1313/tags/borel-measure/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/tags/borel-measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lebesgue Measure</title>
+      <link>http://localhost:1313/tags/lebesgue-measure/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/tags/lebesgue-measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Non-Measurable Sets</title>
+      <link>http://localhost:1313/tags/non-measurable-sets/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/tags/non-measurable-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability Measure</title>
+      <link>http://localhost:1313/tags/probability-measure/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/tags/probability-measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability Theory</title>
+      <link>http://localhost:1313/tags/probability-theory/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/tags/probability-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vitali Set</title>
+      <link>http://localhost:1313/tags/vitali-set/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/tags/vitali-set/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Derivative</title>
+      <link>http://localhost:1313/tags/derivative/</link>
+      <pubDate>Sun, 29 Sep 2024 20:22:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/derivative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integral</title>
+      <link>http://localhost:1313/tags/integral/</link>
+      <pubDate>Sun, 29 Sep 2024 20:22:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/integral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leibniz Rule</title>
+      <link>http://localhost:1313/tags/leibniz-rule/</link>
+      <pubDate>Sun, 29 Sep 2024 20:22:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/leibniz-rule/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partial Derivative</title>
+      <link>http://localhost:1313/tags/partial-derivative/</link>
+      <pubDate>Sun, 29 Sep 2024 20:22:31 -0400</pubDate>
+      <guid>http://localhost:1313/tags/partial-derivative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenvalues</title>
+      <link>http://localhost:1313/tags/eigenvalues/</link>
+      <pubDate>Sat, 28 Sep 2024 19:55:48 -0400</pubDate>
+      <guid>http://localhost:1313/tags/eigenvalues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trace</title>
+      <link>http://localhost:1313/tags/trace/</link>
+      <pubDate>Sat, 28 Sep 2024 19:55:48 -0400</pubDate>
+      <guid>http://localhost:1313/tags/trace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Determinants</title>
+      <link>http://localhost:1313/tags/determinants/</link>
+      <pubDate>Sat, 28 Sep 2024 19:50:40 -0400</pubDate>
+      <guid>http://localhost:1313/tags/determinants/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Combinatorics</title>
+      <link>http://localhost:1313/tags/combinatorics/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/combinatorics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Determinant</title>
+      <link>http://localhost:1313/tags/determinant/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/determinant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Even Permutation</title>
+      <link>http://localhost:1313/tags/even-permutation/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/even-permutation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Odd Permutation</title>
+      <link>http://localhost:1313/tags/odd-permutation/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/odd-permutation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Permutation</title>
+      <link>http://localhost:1313/tags/permutation/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/permutation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sign</title>
+      <link>http://localhost:1313/tags/sign/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/sign/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Central Limit Theorem</title>
+      <link>http://localhost:1313/tags/central-limit-theorem/</link>
+      <pubDate>Sat, 28 Sep 2024 10:14:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/central-limit-theorem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Characteristic Function</title>
+      <link>http://localhost:1313/tags/characteristic-function/</link>
+      <pubDate>Sat, 28 Sep 2024 10:14:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/characteristic-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaussian Distribution</title>
+      <link>http://localhost:1313/tags/gaussian-distribution/</link>
+      <pubDate>Sat, 28 Sep 2024 10:14:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/gaussian-distribution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Normal Distribution</title>
+      <link>http://localhost:1313/tags/normal-distribution/</link>
+      <pubDate>Sat, 28 Sep 2024 10:14:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/normal-distribution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability Distribution</title>
+      <link>http://localhost:1313/tags/probability-distribution/</link>
+      <pubDate>Sat, 28 Sep 2024 10:14:42 -0400</pubDate>
+      <guid>http://localhost:1313/tags/probability-distribution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Additivity</title>
+      <link>http://localhost:1313/tags/additivity/</link>
+      <pubDate>Sat, 28 Sep 2024 09:40:25 -0400</pubDate>
+      <guid>http://localhost:1313/tags/additivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Column Invariance</title>
+      <link>http://localhost:1313/tags/column-invariance/</link>
+      <pubDate>Sat, 28 Sep 2024 09:40:25 -0400</pubDate>
+      <guid>http://localhost:1313/tags/column-invariance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homogeneity</title>
+      <link>http://localhost:1313/tags/homogeneity/</link>
+      <pubDate>Sat, 28 Sep 2024 09:40:25 -0400</pubDate>
+      <guid>http://localhost:1313/tags/homogeneity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Combination</title>
+      <link>http://localhost:1313/tags/linear-combination/</link>
+      <pubDate>Sat, 28 Sep 2024 09:40:25 -0400</pubDate>
+      <guid>http://localhost:1313/tags/linear-combination/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linearity</title>
+      <link>http://localhost:1313/tags/linearity/</link>
+      <pubDate>Sat, 28 Sep 2024 09:40:25 -0400</pubDate>
+      <guid>http://localhost:1313/tags/linearity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bivectors</title>
+      <link>http://localhost:1313/tags/bivectors/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/tags/bivectors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clifford Algebra</title>
+      <link>http://localhost:1313/tags/clifford-algebra/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/tags/clifford-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multivectors</title>
+      <link>http://localhost:1313/tags/multivectors/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/tags/multivectors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rotors</title>
+      <link>http://localhost:1313/tags/rotors/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/tags/rotors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scalars</title>
+      <link>http://localhost:1313/tags/scalars/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/tags/scalars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vectors</title>
+      <link>http://localhost:1313/tags/vectors/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/tags/vectors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebra</title>
+      <link>http://localhost:1313/tags/algebra/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analysis</title>
+      <link>http://localhost:1313/tags/analysis/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometry</title>
+      <link>http://localhost:1313/tags/geometry/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/geometry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematical Logic</title>
+      <link>http://localhost:1313/tags/mathematical-logic/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mathematical-logic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Number Theory</title>
+      <link>http://localhost:1313/tags/number-theory/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability</title>
+      <link>http://localhost:1313/tags/probability/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/probability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Set Theory</title>
+      <link>http://localhost:1313/tags/set-theory/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/set-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Topology</title>
+      <link>http://localhost:1313/tags/topology/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/topology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inner Product</title>
+      <link>http://localhost:1313/tags/inner-product/</link>
+      <pubDate>Tue, 24 Sep 2024 21:00:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/inner-product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outer Product</title>
+      <link>http://localhost:1313/tags/outer-product/</link>
+      <pubDate>Tue, 24 Sep 2024 21:00:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/outer-product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algebraic Structures</title>
+      <link>http://localhost:1313/tags/algebraic-structures/</link>
+      <pubDate>Tue, 24 Sep 2024 19:49:41 -0400</pubDate>
+      <guid>http://localhost:1313/tags/algebraic-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Morphisms</title>
+      <link>http://localhost:1313/tags/morphisms/</link>
+      <pubDate>Tue, 24 Sep 2024 19:49:41 -0400</pubDate>
+      <guid>http://localhost:1313/tags/morphisms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tensor Product</title>
+      <link>http://localhost:1313/tags/tensor-product/</link>
+      <pubDate>Tue, 24 Sep 2024 19:49:41 -0400</pubDate>
+      <guid>http://localhost:1313/tags/tensor-product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attention</title>
+      <link>http://localhost:1313/tags/attention/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boltzmann Distribution</title>
+      <link>http://localhost:1313/tags/boltzmann-distribution/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/boltzmann-distribution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dot-Product Attention</title>
+      <link>http://localhost:1313/tags/dot-product-attention/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/dot-product-attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Head Attention</title>
+      <link>http://localhost:1313/tags/multi-head-attention/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/multi-head-attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiplicative Attention</title>
+      <link>http://localhost:1313/tags/multiplicative-attention/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/multiplicative-attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaled Dot-Product Attention</title>
+      <link>http://localhost:1313/tags/scaled-dot-product-attention/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/scaled-dot-product-attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Attention</title>
+      <link>http://localhost:1313/tags/self-attention/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/self-attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Softmax</title>
+      <link>http://localhost:1313/tags/softmax/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/softmax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Mechanics</title>
+      <link>http://localhost:1313/tags/statistical-mechanics/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/statistical-mechanics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>http://localhost:1313/tags/statistics/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformers</title>
+      <link>http://localhost:1313/tags/transformers/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/tags/transformers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calculus</title>
+      <link>http://localhost:1313/tags/calculus/</link>
+      <pubDate>Sun, 22 Sep 2024 20:49:30 -0400</pubDate>
+      <guid>http://localhost:1313/tags/calculus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic Processes</title>
+      <link>http://localhost:1313/tags/stochastic-processes/</link>
+      <pubDate>Sun, 22 Sep 2024 20:49:30 -0400</pubDate>
+      <guid>http://localhost:1313/tags/stochastic-processes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Efficiency</title>
+      <link>http://localhost:1313/tags/efficiency/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gradient Descent</title>
+      <link>http://localhost:1313/tags/gradient-descent/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/gradient-descent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mini-Batch Gradient Descent</title>
+      <link>http://localhost:1313/tags/mini-batch-gradient-descent/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mini-batch-gradient-descent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>http://localhost:1313/tags/optimization/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic Gradient Descent</title>
+      <link>http://localhost:1313/tags/stochastic-gradient-descent/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/stochastic-gradient-descent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Approximation Theory</title>
+      <link>http://localhost:1313/tags/approximation-theory/</link>
+      <pubDate>Wed, 18 Sep 2024 19:11:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/approximation-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basis Functions</title>
+      <link>http://localhost:1313/tags/basis-functions/</link>
+      <pubDate>Wed, 18 Sep 2024 19:11:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/basis-functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hilbert Spaces</title>
+      <link>http://localhost:1313/tags/hilbert-spaces/</link>
+      <pubDate>Wed, 18 Sep 2024 19:11:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/hilbert-spaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orthogonality</title>
+      <link>http://localhost:1313/tags/orthogonality/</link>
+      <pubDate>Wed, 18 Sep 2024 19:11:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/orthogonality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithms</title>
+      <link>http://localhost:1313/tags/algorithms/</link>
+      <pubDate>Tue, 17 Sep 2024 12:05:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Applied Mathematics</title>
+      <link>http://localhost:1313/tags/applied-mathematics/</link>
+      <pubDate>Tue, 17 Sep 2024 12:05:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/applied-mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convolution Theorem</title>
+      <link>http://localhost:1313/tags/convolution-theorem/</link>
+      <pubDate>Tue, 17 Sep 2024 12:05:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/convolution-theorem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Discrete Fourier Transform</title>
+      <link>http://localhost:1313/tags/discrete-fourier-transform/</link>
+      <pubDate>Tue, 17 Sep 2024 12:05:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/discrete-fourier-transform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fast Fourier Transform</title>
+      <link>http://localhost:1313/tags/fast-fourier-transform/</link>
+      <pubDate>Tue, 17 Sep 2024 12:05:14 -0400</pubDate>
+      <guid>http://localhost:1313/tags/fast-fourier-transform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harmonic Analysis</title>
+      <link>http://localhost:1313/tags/harmonic-analysis/</link>
+      <pubDate>Tue, 17 Sep 2024 10:34:48 -0400</pubDate>
+      <guid>http://localhost:1313/tags/harmonic-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signal Processing</title>
+      <link>http://localhost:1313/tags/signal-processing/</link>
+      <pubDate>Tue, 17 Sep 2024 10:34:48 -0400</pubDate>
+      <guid>http://localhost:1313/tags/signal-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematical Analysis</title>
+      <link>http://localhost:1313/tags/mathematical-analysis/</link>
+      <pubDate>Tue, 17 Sep 2024 09:34:03 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mathematical-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dirac Delta Function</title>
+      <link>http://localhost:1313/tags/dirac-delta-function/</link>
+      <pubDate>Tue, 17 Sep 2024 08:53:05 -0400</pubDate>
+      <guid>http://localhost:1313/tags/dirac-delta-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepSeek Prover</title>
+      <link>http://localhost:1313/tags/deepseek-prover/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/deepseek-prover/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formal Verification</title>
+      <link>http://localhost:1313/tags/formal-verification/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/formal-verification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>http://localhost:1313/tags/llms/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematics</title>
+      <link>http://localhost:1313/tags/mathematics/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI O1</title>
+      <link>http://localhost:1313/tags/openai-o1/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/openai-o1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/tags/programming/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>http://localhost:1313/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maximum Entropy</title>
+      <link>http://localhost:1313/tags/maximum-entropy/</link>
+      <pubDate>Sat, 14 Sep 2024 20:18:51 -0400</pubDate>
+      <guid>http://localhost:1313/tags/maximum-entropy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diffusion Models</title>
+      <link>http://localhost:1313/tags/diffusion-models/</link>
+      <pubDate>Sat, 14 Sep 2024 10:54:40 -0400</pubDate>
+      <guid>http://localhost:1313/tags/diffusion-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generative Models</title>
+      <link>http://localhost:1313/tags/generative-models/</link>
+      <pubDate>Sat, 14 Sep 2024 10:54:40 -0400</pubDate>
+      <guid>http://localhost:1313/tags/generative-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Image Generation</title>
+      <link>http://localhost:1313/tags/image-generation/</link>
+      <pubDate>Sat, 14 Sep 2024 10:54:40 -0400</pubDate>
+      <guid>http://localhost:1313/tags/image-generation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/tags/overview/</link>
+      <pubDate>Sat, 14 Sep 2024 10:54:40 -0400</pubDate>
+      <guid>http://localhost:1313/tags/overview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Manifolds</title>
+      <link>http://localhost:1313/tags/data-manifolds/</link>
+      <pubDate>Fri, 13 Sep 2024 21:51:58 -0400</pubDate>
+      <guid>http://localhost:1313/tags/data-manifolds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generalization</title>
+      <link>http://localhost:1313/tags/generalization/</link>
+      <pubDate>Fri, 13 Sep 2024 21:51:58 -0400</pubDate>
+      <guid>http://localhost:1313/tags/generalization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Networks</title>
+      <link>http://localhost:1313/tags/neural-networks/</link>
+      <pubDate>Fri, 13 Sep 2024 21:51:58 -0400</pubDate>
+      <guid>http://localhost:1313/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaling Laws</title>
+      <link>http://localhost:1313/tags/scaling-laws/</link>
+      <pubDate>Fri, 13 Sep 2024 21:51:58 -0400</pubDate>
+      <guid>http://localhost:1313/tags/scaling-laws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attention Mechanism</title>
+      <link>http://localhost:1313/tags/attention-mechanism/</link>
+      <pubDate>Fri, 13 Sep 2024 20:02:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/attention-mechanism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepSeek-V2</title>
+      <link>http://localhost:1313/tags/deepseek-v2/</link>
+      <pubDate>Fri, 13 Sep 2024 20:02:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/deepseek-v2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Low Rank Approximation</title>
+      <link>http://localhost:1313/tags/low-rank-approximation/</link>
+      <pubDate>Fri, 13 Sep 2024 20:02:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/low-rank-approximation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Head Latent Attention</title>
+      <link>http://localhost:1313/tags/multi-head-latent-attention/</link>
+      <pubDate>Fri, 13 Sep 2024 20:02:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/multi-head-latent-attention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformer</title>
+      <link>http://localhost:1313/tags/transformer/</link>
+      <pubDate>Fri, 13 Sep 2024 20:02:08 -0400</pubDate>
+      <guid>http://localhost:1313/tags/transformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bayes&#39; Theorem</title>
+      <link>http://localhost:1313/tags/bayes-theorem/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/bayes-theorem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bias-Variance Tradeoff</title>
+      <link>http://localhost:1313/tags/bias-variance-tradeoff/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/bias-variance-tradeoff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conditional Entropy</title>
+      <link>http://localhost:1313/tags/conditional-entropy/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/conditional-entropy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Covariance</title>
+      <link>http://localhost:1313/tags/covariance/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/covariance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cramér-Rao Bound</title>
+      <link>http://localhost:1313/tags/cram%C3%A9r-rao-bound/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/cram%C3%A9r-rao-bound/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entropy</title>
+      <link>http://localhost:1313/tags/entropy/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/entropy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expectation</title>
+      <link>http://localhost:1313/tags/expectation/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/expectation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fisher Information</title>
+      <link>http://localhost:1313/tags/fisher-information/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/fisher-information/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information Theory</title>
+      <link>http://localhost:1313/tags/information-theory/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/information-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jensen&#39;s Inequality</title>
+      <link>http://localhost:1313/tags/jensens-inequality/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/jensens-inequality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Likelihood Function</title>
+      <link>http://localhost:1313/tags/likelihood-function/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/likelihood-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mutual Information</title>
+      <link>http://localhost:1313/tags/mutual-information/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mutual-information/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Variance</title>
+      <link>http://localhost:1313/tags/variance/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/tags/variance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adversarial Testing</title>
+      <link>http://localhost:1313/tags/adversarial-testing/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/adversarial-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adversarial Training</title>
+      <link>http://localhost:1313/tags/adversarial-training/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/adversarial-training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architectural Choices</title>
+      <link>http://localhost:1313/tags/architectural-choices/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/architectural-choices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bayesian Statistics</title>
+      <link>http://localhost:1313/tags/bayesian-statistics/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/bayesian-statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Causal Learning</title>
+      <link>http://localhost:1313/tags/causal-learning/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/causal-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contrastive Learning</title>
+      <link>http://localhost:1313/tags/contrastive-learning/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/contrastive-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cross-Entropy</title>
+      <link>http://localhost:1313/tags/cross-entropy/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/cross-entropy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Augmentation</title>
+      <link>http://localhost:1313/tags/data-augmentation/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/data-augmentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feature Learning</title>
+      <link>http://localhost:1313/tags/feature-learning/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/feature-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Few-Shot Learning</title>
+      <link>http://localhost:1313/tags/few-shot-learning/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/few-shot-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpolation</title>
+      <link>http://localhost:1313/tags/interpolation/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/interpolation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpretability</title>
+      <link>http://localhost:1313/tags/interpretability/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/interpretability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KL-Divergence</title>
+      <link>http://localhost:1313/tags/kl-divergence/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/kl-divergence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kullback-Leibler Divergence</title>
+      <link>http://localhost:1313/tags/kullback-leibler-divergence/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/kullback-leibler-divergence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Task Learning</title>
+      <link>http://localhost:1313/tags/multi-task-learning/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/multi-task-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Out-of-Distribution Testing</title>
+      <link>http://localhost:1313/tags/out-of-distribution-testing/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/out-of-distribution-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probing Tasks</title>
+      <link>http://localhost:1313/tags/probing-tasks/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/probing-tasks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regularization</title>
+      <link>http://localhost:1313/tags/regularization/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/regularization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surprisal</title>
+      <link>http://localhost:1313/tags/surprisal/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/surprisal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computational Efficiency</title>
+      <link>http://localhost:1313/tags/computational-efficiency/</link>
+      <pubDate>Sun, 08 Sep 2024 21:54:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/computational-efficiency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expressiveness</title>
+      <link>http://localhost:1313/tags/expressiveness/</link>
+      <pubDate>Sun, 08 Sep 2024 21:54:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/expressiveness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>http://localhost:1313/tags/matrix/</link>
+      <pubDate>Sun, 08 Sep 2024 21:54:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sparse Matrix</title>
+      <link>http://localhost:1313/tags/sparse-matrix/</link>
+      <pubDate>Sun, 08 Sep 2024 21:54:38 -0400</pubDate>
+      <guid>http://localhost:1313/tags/sparse-matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BitNet</title>
+      <link>http://localhost:1313/tags/bitnet/</link>
+      <pubDate>Sat, 07 Sep 2024 21:35:06 -0400</pubDate>
+      <guid>http://localhost:1313/tags/bitnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix Multiplication</title>
+      <link>http://localhost:1313/tags/matrix-multiplication/</link>
+      <pubDate>Sat, 07 Sep 2024 21:35:06 -0400</pubDate>
+      <guid>http://localhost:1313/tags/matrix-multiplication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strassen&#39;s Algorithm</title>
+      <link>http://localhost:1313/tags/strassens-algorithm/</link>
+      <pubDate>Sat, 07 Sep 2024 21:35:06 -0400</pubDate>
+      <guid>http://localhost:1313/tags/strassens-algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ternary Matrices</title>
+      <link>http://localhost:1313/tags/ternary-matrices/</link>
+      <pubDate>Sat, 07 Sep 2024 21:35:06 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ternary-matrices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>http://localhost:1313/tags/physics/</link>
+      <pubDate>Sat, 07 Sep 2024 09:24:44 -0400</pubDate>
+      <guid>http://localhost:1313/tags/physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projectile Motion</title>
+      <link>http://localhost:1313/tags/projectile-motion/</link>
+      <pubDate>Sat, 07 Sep 2024 09:24:44 -0400</pubDate>
+      <guid>http://localhost:1313/tags/projectile-motion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taylor Expansion</title>
+      <link>http://localhost:1313/tags/taylor-expansion/</link>
+      <pubDate>Sat, 07 Sep 2024 09:24:44 -0400</pubDate>
+      <guid>http://localhost:1313/tags/taylor-expansion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Language Modeling</title>
+      <link>http://localhost:1313/tags/language-modeling/</link>
+      <pubDate>Thu, 05 Sep 2024 19:31:37 -0400</pubDate>
+      <guid>http://localhost:1313/tags/language-modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>http://localhost:1313/tags/nlp/</link>
+      <pubDate>Thu, 05 Sep 2024 19:31:37 -0400</pubDate>
+      <guid>http://localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaling</title>
+      <link>http://localhost:1313/tags/scaling/</link>
+      <pubDate>Thu, 05 Sep 2024 19:31:37 -0400</pubDate>
+      <guid>http://localhost:1313/tags/scaling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://localhost:1313/tags/artificial-intelligence/</link>
+      <pubDate>Thu, 05 Sep 2024 18:35:18 -0400</pubDate>
+      <guid>http://localhost:1313/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competitive Mathematics</title>
+      <link>http://localhost:1313/tags/competitive-mathematics/</link>
+      <pubDate>Thu, 05 Sep 2024 18:35:18 -0400</pubDate>
+      <guid>http://localhost:1313/tags/competitive-mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competitive Programming</title>
+      <link>http://localhost:1313/tags/competitive-programming/</link>
+      <pubDate>Thu, 05 Sep 2024 18:35:18 -0400</pubDate>
+      <guid>http://localhost:1313/tags/competitive-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer Science</title>
+      <link>http://localhost:1313/tags/computer-science/</link>
+      <pubDate>Thu, 05 Sep 2024 18:35:18 -0400</pubDate>
+      <guid>http://localhost:1313/tags/computer-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematical Olympiads</title>
+      <link>http://localhost:1313/tags/mathematical-olympiads/</link>
+      <pubDate>Thu, 05 Sep 2024 18:35:18 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mathematical-olympiads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Borel Sigma Algebra</title>
+      <link>http://localhost:1313/tags/borel-sigma-algebra/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/borel-sigma-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Counting Measure</title>
+      <link>http://localhost:1313/tags/counting-measure/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/counting-measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributions</title>
+      <link>http://localhost:1313/tags/distributions/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/distributions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dominated Convergence Theorem</title>
+      <link>http://localhost:1313/tags/dominated-convergence-theorem/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/dominated-convergence-theorem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fatou&#39;s Lemma</title>
+      <link>http://localhost:1313/tags/fatous-lemma/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/fatous-lemma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/tags/functions/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integrals</title>
+      <link>http://localhost:1313/tags/integrals/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/integrals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration</title>
+      <link>http://localhost:1313/tags/integration/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lebesgue Integral</title>
+      <link>http://localhost:1313/tags/lebesgue-integral/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/lebesgue-integral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measurable Functions</title>
+      <link>http://localhost:1313/tags/measurable-functions/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/measurable-functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measurable Space</title>
+      <link>http://localhost:1313/tags/measurable-space/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/measurable-space/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measure</title>
+      <link>http://localhost:1313/tags/measure/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/measure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measure Theory</title>
+      <link>http://localhost:1313/tags/measure-theory/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/measure-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monotone Convergence Theorem</title>
+      <link>http://localhost:1313/tags/monotone-convergence-theorem/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/monotone-convergence-theorem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riemann Integral</title>
+      <link>http://localhost:1313/tags/riemann-integral/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/riemann-integral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simple Functions</title>
+      <link>http://localhost:1313/tags/simple-functions/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/simple-functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Σ-Algebra</title>
+      <link>http://localhost:1313/tags/%CF%83-algebra/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/tags/%CF%83-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biased Estimator</title>
+      <link>http://localhost:1313/tags/biased-estimator/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/biased-estimator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decoder-Only</title>
+      <link>http://localhost:1313/tags/decoder-only/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/decoder-only/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encoder-Decoder</title>
+      <link>http://localhost:1313/tags/encoder-decoder/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/encoder-decoder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expected Value</title>
+      <link>http://localhost:1313/tags/expected-value/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/expected-value/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/tags/llm/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lottery Ticket Hypothesis</title>
+      <link>http://localhost:1313/tags/lottery-ticket-hypothesis/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lottery-ticket-hypothesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Positional Encoding</title>
+      <link>http://localhost:1313/tags/positional-encoding/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/positional-encoding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pruning</title>
+      <link>http://localhost:1313/tags/pruning/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pruning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Variance</title>
+      <link>http://localhost:1313/tags/sample-variance/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sample-variance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semantic Embedding</title>
+      <link>http://localhost:1313/tags/semantic-embedding/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/semantic-embedding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Word Embedding</title>
+      <link>http://localhost:1313/tags/word-embedding/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/word-embedding/</guid>
       <description></description>
     </item>
   </channel>

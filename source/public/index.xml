@@ -9,44 +9,435 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 21:27:12 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about-me/</link>
-      <pubDate>Tue, 20 Aug 2024 12:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/about-me/</guid>
-      <description>About Me High school student! I like mathematics </description>
+      <title>Why Mathematics</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/why-mathematics/</link>
+      <pubDate>Sat, 21 Sep 2024 09:19:55 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/why-mathematics/</guid>
+      <description>Why do we study mathematics? How can we enjoy it?</description>
     </item>
     <item>
-      <title>Portfolio</title>
-      <link>http://localhost:1313/portfolio/</link>
-      <pubDate>Tue, 20 Aug 2024 12:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/portfolio/</guid>
-      <description>Portfolio Timer Project Check out my timer project here. It&amp;rsquo;s a simple timer built with HTML and JavaScript.</description>
+      <title>Calculus Is Just Linear Algebra</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/calculus-is-just-linear-algebra/</link>
+      <pubDate>Wed, 09 Oct 2024 19:43:57 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/calculus-is-just-linear-algebra/</guid>
+      <description>An introduction to functional analysis</description>
     </item>
     <item>
-      <title>Writing math with Hugo</title>
-      <link>http://localhost:1313/posts/math-test/</link>
-      <pubDate>Tue, 20 Aug 2024 11:53:05 -0400</pubDate>
-      <guid>http://localhost:1313/posts/math-test/</guid>
-      <description>Does this render KaTeX
-$$1+1=2$$
-[1+1=2]
-$\frac{1}{2}$
-(\frac{1}{2})
-$$\frac{1}{2}$$
-[\frac{1}{2}]</description>
+      <title>The Unifying Power of Geometric Algebra</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/the-unifying-power-of-geometric-algebra/</link>
+      <pubDate>Mon, 21 Oct 2024 18:56:06 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/the-unifying-power-of-geometric-algebra/</guid>
+      <description>An overview of Geometric Algebra and Geometric Calculus, and the many mathematical fields they naturally unify.</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 20 Aug 2024 11:28:05 -0400</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-print(&amp;#34;Hello World&amp;#34;) </description>
+      <title>Attention Mechanism in Transformers Derived with Statistical Mechanics Interpretation</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/attention-mechanism-in-transformers/</link>
+      <pubDate>Mon, 23 Sep 2024 16:57:09 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/attention-mechanism-in-transformers/</guid>
+      <description>An full explanation and interpretation of scaled dot-product attention via the Boltzmann distribution and probability theory.</description>
+    </item>
+    <item>
+      <title>Proof of Isoperimetric Problem in R^2</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/isoperimetric-problem-in-r2/</link>
+      <pubDate>Mon, 21 Oct 2024 21:27:12 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/isoperimetric-problem-in-r2/</guid>
+      <description>Proof that a circle encloses the greatest possible area in R^2 for a given perimeter</description>
+    </item>
+    <item>
+      <title>Itô&#39;s lemma and the Itô Differential Mapping</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/analyzing-the-ito-differential-mapping/</link>
+      <pubDate>Tue, 15 Oct 2024 22:08:14 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/analyzing-the-ito-differential-mapping/</guid>
+      <description>Deriving Itô&amp;rsquo;s Lemma and analyzing the Itô &amp;rsquo;d&amp;rsquo; operation as a formal linear mapping.</description>
+    </item>
+    <item>
+      <title>Conditional Expectation as a Least Squares Approximation</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/conditional-expectation-as-a-least-squares-approximation/</link>
+      <pubDate>Fri, 11 Oct 2024 22:35:38 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/conditional-expectation-as-a-least-squares-approximation/</guid>
+      <description>Conditional Expectation defined as an optimal predictor for a random variable through orthogonal projection</description>
+    </item>
+    <item>
+      <title>Measurability of Random Variables</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/measurability-of-random-variables/</link>
+      <pubDate>Fri, 11 Oct 2024 22:30:45 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/measurability-of-random-variables/</guid>
+      <description>Motivating the definition of measurability for random variables</description>
+    </item>
+    <item>
+      <title>Motivation for Borel Measure</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/motivation-for-borel-measure/</link>
+      <pubDate>Tue, 08 Oct 2024 21:38:27 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/motivation-for-borel-measure/</guid>
+      <description>&lt;h4 id=&#34;1-what-is-a-measure&#34;&gt;1. &lt;strong&gt;What Is a Measure?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re trying to figure out how to assign a size, or &amp;ldquo;measure,&amp;rdquo; to different kinds of sets—some simple, like intervals on the real line, and some more complex. A &lt;em&gt;measure&lt;/em&gt; is just a mathematical way to do this, and it needs to follow a few basic rules:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Non-negativity&lt;/strong&gt;: The measure of any set should be non-negative (you can&amp;rsquo;t have negative length or size).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The empty set gets zero&lt;/strong&gt;: The set with nothing in it has a measure of zero.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Additivity&lt;/strong&gt;: If you can break up a set into disjoint pieces, then the measure of the whole set should be the sum of the measures of the pieces.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A &lt;em&gt;probability measure&lt;/em&gt; is a special kind of measure where the total size of the space is 1—think of it like spreading probability evenly across all outcomes in a probability space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proof of Leibniz Rule for Differentiating Integrals</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/proof-of-leibniz-rule-for-differentiating-integrals/</link>
+      <pubDate>Sun, 29 Sep 2024 20:22:31 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/proof-of-leibniz-rule-for-differentiating-integrals/</guid>
+      <description>A short proof of Leibniz rule for differentiating integrals with variable integration bounds.</description>
+    </item>
+    <item>
+      <title>Proof That Trace Equals Sum of Eigenvalues</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/proof-that-trace-equals-sum-of-eigenvalues/</link>
+      <pubDate>Sat, 28 Sep 2024 19:55:48 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/proof-that-trace-equals-sum-of-eigenvalues/</guid>
+      <description>A short proof that the trace of a (finite-dimensional) matrix is equal to the sum of its eigenvalues.</description>
+    </item>
+    <item>
+      <title>Proof That Determinant Equals Product of Eigenvalues</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/proof-that-determinant-equals-product-of-eigenvalues/</link>
+      <pubDate>Sat, 28 Sep 2024 19:50:40 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/proof-that-determinant-equals-product-of-eigenvalues/</guid>
+      <description>A short proof that the determinant of a (finite-dimensional) matrix is equal to the product of its eigenvalues.</description>
+    </item>
+    <item>
+      <title>Proof of Equal Number of Odd and Even Permutations using Determinants</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/proof-of-equal-counts-of-odd-and-even-permutations/</link>
+      <pubDate>Sat, 28 Sep 2024 14:48:35 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/proof-of-equal-counts-of-odd-and-even-permutations/</guid>
+      <description>A proof of the equinumerosity of the number of odd and even permutations via determinants.</description>
+    </item>
+    <item>
+      <title>Proof of Central Limit Theorem Using Characteristic Functions</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/proof-of-central-limit-theorem-using-characteristic-functions/</link>
+      <pubDate>Sat, 28 Sep 2024 10:14:42 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/proof-of-central-limit-theorem-using-characteristic-functions/</guid>
+      <description>A fairly rigorous proof of the Central Limit Theorem (CLT) using characteristic functions.</description>
+    </item>
+    <item>
+      <title>Proof of Determinant Additivity From Homogeneity and Column Invariance</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/proof-of-determinant-additivity-from-homogeneity-and-column-invariance/</link>
+      <pubDate>Sat, 28 Sep 2024 09:40:25 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/proof-of-determinant-additivity-from-homogeneity-and-column-invariance/</guid>
+      <description>A proof of the additivity of determinants from homogeneity and invariance under linear combinations of other columns.</description>
+    </item>
+    <item>
+      <title>Geometric Algebra</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/geometric-algebra/</link>
+      <pubDate>Tue, 24 Sep 2024 21:47:39 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/geometric-algebra/</guid>
+      <description>An introduction to geometric algebra</description>
+    </item>
+    <item>
+      <title>Overview of Modern Mathematics</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/overview-of-modern-mathematics/</link>
+      <pubDate>Tue, 24 Sep 2024 21:33:05 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/overview-of-modern-mathematics/</guid>
+      <description>A survey of some important modern mathematical fields and their applications.</description>
+    </item>
+    <item>
+      <title>Geometric Origins of the Inner Product</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/geometric-origins-of-the-inner-product/</link>
+      <pubDate>Tue, 24 Sep 2024 21:00:08 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/geometric-origins-of-the-inner-product/</guid>
+      <description>A short note on the name for the inner and outer products with a geometric origin.</description>
+    </item>
+    <item>
+      <title>Key Concepts in Abstract Algebra</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/key-concepts-in-abstract-algebra/</link>
+      <pubDate>Tue, 24 Sep 2024 19:49:41 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/key-concepts-in-abstract-algebra/</guid>
+      <description>A list of key concepts in abstract algebra with concise natural language definitions.</description>
+    </item>
+    <item>
+      <title>Stochastic Calculus</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/stochastic-calculus/</link>
+      <pubDate>Sun, 22 Sep 2024 20:49:30 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/stochastic-calculus/</guid>
+      <description>An overview of stochastic calculus</description>
+    </item>
+    <item>
+      <title>Stochastic Gradient Descent</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/stochastic-gradient-descent/</link>
+      <pubDate>Sun, 22 Sep 2024 16:44:35 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/stochastic-gradient-descent/</guid>
+      <description>An overview of Stochastic Gradient Descent (SGD)</description>
+    </item>
+    <item>
+      <title>Function Bases</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/function-bases/</link>
+      <pubDate>Wed, 18 Sep 2024 19:11:00 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/function-bases/</guid>
+      <description>A Linear Algebra Perspective on Infinite-Dimensional (Function) Spaces</description>
+    </item>
+    <item>
+      <title>Dirac Delta Distribution</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/dirac-delta-distribution/</link>
+      <pubDate>Tue, 17 Sep 2024 21:46:52 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/dirac-delta-distribution/</guid>
+      <description>A short description of the Dirac Delta Function (Distribution)</description>
+    </item>
+    <item>
+      <title>Convolution Theorem For Faster Convolutions</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/convolution-theorem/</link>
+      <pubDate>Tue, 17 Sep 2024 12:05:14 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/convolution-theorem/</guid>
+      <description>Using the FFT to accelerate convolution computation</description>
+    </item>
+    <item>
+      <title>Fast Fourier Transform</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/fast-fourier-transform/</link>
+      <pubDate>Tue, 17 Sep 2024 10:34:48 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/fast-fourier-transform/</guid>
+      <description>An overview of the Fast Fourier Transform</description>
+    </item>
+    <item>
+      <title>Laplace Transform</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/laplace-transform/</link>
+      <pubDate>Tue, 17 Sep 2024 09:34:03 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/laplace-transform/</guid>
+      <description>An overview of the Laplace Transform</description>
+    </item>
+    <item>
+      <title>Discrete Fourier Transform</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/discrete-fourier-transform/</link>
+      <pubDate>Tue, 17 Sep 2024 08:53:05 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/discrete-fourier-transform/</guid>
+      <description>An overview of the Discrete Fourier Transform (DFT)</description>
+    </item>
+    <item>
+      <title>Fourier Transform</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/fourier-transform/</link>
+      <pubDate>Mon, 16 Sep 2024 21:56:31 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/fourier-transform/</guid>
+      <description>An overview of the Fourier Transform</description>
+    </item>
+    <item>
+      <title>Learning to Do Math With LLMs</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/learning-to-do-math-with-llms/</link>
+      <pubDate>Sun, 15 Sep 2024 12:43:12 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/learning-to-do-math-with-llms/</guid>
+      <description>An approach to formal verification using LLMs following OpenAI&amp;#39;s o1 model family.</description>
+    </item>
+    <item>
+      <title>Deriving PDF of Normal Distribution</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/deriving-pdf-of-normal-distribution/</link>
+      <pubDate>Sat, 14 Sep 2024 20:18:51 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/deriving-pdf-of-normal-distribution/</guid>
+      <description>An elementary derivation of the PDF of a normal distribution.</description>
+    </item>
+    <item>
+      <title>Overview of Diffusion Models</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/overview-of-diffusion-models/</link>
+      <pubDate>Sat, 14 Sep 2024 10:54:40 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/overview-of-diffusion-models/</guid>
+      <description>An overview of diffusion models, including their mathematical foundations, key concepts, and practical applications.</description>
+    </item>
+    <item>
+      <title>Machine Learning as Interpolation</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/machine-learning-as-interpolation/</link>
+      <pubDate>Fri, 13 Sep 2024 21:51:58 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/machine-learning-as-interpolation/</guid>
+      <description>Exploring how machine learning models generalize by interpolating on data manifolds, with concrete examples from image and language processing</description>
+    </item>
+    <item>
+      <title>Multi-Head Latent Attention</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/multi-head-latent-attention/</link>
+      <pubDate>Fri, 13 Sep 2024 20:02:08 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/multi-head-latent-attention/</guid>
+      <description>A short post on Multi-Head Latent Attention as presented in the DeepSeek-V2 paper.</description>
+    </item>
+    <item>
+      <title>Basic Concepts in Information Theory</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/basic-concepts-in-information-theory/</link>
+      <pubDate>Fri, 13 Sep 2024 17:58:35 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/basic-concepts-in-information-theory/</guid>
+      <description>A brief overview of some important concepts in information theory.</description>
+    </item>
+    <item>
+      <title>Understanding KL-Divergence</title>
+      <link>http://localhost:1313/blog/math-blog/higher-math/understanding-kl-divergence/</link>
+      <pubDate>Thu, 12 Sep 2024 20:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/higher-math/understanding-kl-divergence/</guid>
+      <description>An interpretation and explanation of the KL-divergence (Kullback-Leibler divergence) via probability theory.</description>
+    </item>
+    <item>
+      <title>Meaningful Feature Learning in Models</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/meaningful-feature-learning-in-models/</link>
+      <pubDate>Thu, 12 Sep 2024 19:38:44 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/meaningful-feature-learning-in-models/</guid>
+      <description>An overview of the challenges and solutions for learning meaningful features in machine learning models.</description>
+    </item>
+    <item>
+      <title>Expressiveness of Sparse Matrices</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/expressiveness-of-sparse-matrices/</link>
+      <pubDate>Sun, 08 Sep 2024 21:54:38 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/expressiveness-of-sparse-matrices/</guid>
+      <description>An evaluation of the expressiveness of sparse matrices in machine learning.</description>
+    </item>
+    <item>
+      <title>Strassen&#39;s Algorithm in Ternary Matrices</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/strassens-algorithm-in-ternary-matrices/</link>
+      <pubDate>Sat, 07 Sep 2024 21:35:06 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/strassens-algorithm-in-ternary-matrices/</guid>
+      <description>An explanation of the potential benefits of Strassen&amp;rsquo;s algorithm in ternary matrices.</description>
+    </item>
+    <item>
+      <title>Exact Taylor Projectile Motion</title>
+      <link>http://localhost:1313/blog/math-blog/research-projects/exact-taylor-projectile-motion/</link>
+      <pubDate>Sat, 07 Sep 2024 09:24:44 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/research-projects/exact-taylor-projectile-motion/</guid>
+      <description>&lt;p&gt;I recently built a physics simulator without air resistance, modeling a body’s motion through a Taylor expansion based on its initial conditions:&lt;/p&gt;
+\[
+x(t) = x^{(0)} + t x^{(1)} + \frac{1}{2} t^2 x^{(2)} + \frac{1}{6} t^3 x^{(3)} + \cdots + \frac{t^k}{k!} x^{(k)}
+\]&lt;p&gt;where \( x^{(k)} \) represents the \( k \)-th derivative of the position vector at time \( t = 0 \).&lt;/p&gt;
+&lt;p&gt;The project mainly focuses on ballistics, hence the name &lt;code&gt;web-ballistics-3d&lt;/code&gt;. It allows the calculation of the unknown direction of one projectile’s initial derivative vector (for example, velocity, acceleration, or higher-order derivatives) when all other initial conditions are provided for two objects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automating Mathematical Olympiads</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/automating-mathematical-olympiads/</link>
+      <pubDate>Thu, 05 Sep 2024 18:35:18 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/automating-mathematical-olympiads/</guid>
+      <description>&lt;p&gt;Edit 2: As of September 12, 2024, OpenAI has released their new &amp;ldquo;o1&amp;rdquo; model, which bases itself upon the same principles listed here. The results are very impressive, with several hard reasoning problems being solved with high accuracy, even superior to human experts in some areas.&lt;/p&gt;
+&lt;p&gt;Edit: As of September 9, 2024, it seems like the results of the model were fraudulent. However, I think the ideas in the post are still valid, so I will leave it up for now. Please make sure to take it with a grain of salt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Measure Theory</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/measure-theory-introduction/</link>
+      <pubDate>Tue, 03 Sep 2024 22:14:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/measure-theory-introduction/</guid>
+      <description>A motivated introduction to measure theory.</description>
+    </item>
+    <item>
+      <title>CLT and diffusion models</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/clt-and-diffusion-models/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/clt-and-diffusion-models/</guid>
+      <description>Connections between the Central Limit Theorem (CLT) and the reverse process of diffusion models being able to initialize from normal (Gaussian) distributions.</description>
+    </item>
+    <item>
+      <title>Encoder-decoder vs decoder only transformer models</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/encoder-decoder-vs-decoder-only/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/encoder-decoder-vs-decoder-only/</guid>
+      <description>Concise comparison between encoder-decoder and decoder-only transformer models.</description>
+    </item>
+    <item>
+      <title>Overview of transformers</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/overview-of-transformers/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/overview-of-transformers/</guid>
+      <description>High-level explanation of transformers, how they work (no math), and the history leading up to them.</description>
+    </item>
+    <item>
+      <title>Separating positional encoding and semantic information</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/separating-positional-encoding-and-semantic-information/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/separating-positional-encoding-and-semantic-information/</guid>
+      <description>How does the model manage to separate the 2 parts of positional encoding?</description>
+    </item>
+    <item>
+      <title>The Lottery Ticket Hypothesis</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/lottery-ticket-hypothesis/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/lottery-ticket-hypothesis/</guid>
+      <description>Visual intuition for the Lottery Ticket Hypothesis.</description>
+    </item>
+    <item>
+      <title>Unbiased sample variance</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/unbiased-sample-variance/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/unbiased-sample-variance/</guid>
+      <description>An algebraic derivation of the biased sample variance estimator using expected value.</description>
+    </item>
+    <item>
+      <title>Scaling Transformers Efficiently</title>
+      <link>http://localhost:1313/blog/math-blog/applied-math/scaling-transformers-efficiently/</link>
+      <pubDate>Thu, 05 Sep 2024 19:31:37 -0400</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/applied-math/scaling-transformers-efficiently/</guid>
+      <description>A summary of techniques for scaling transformers efficiently.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blog/math-blog/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math-blog/reading-list/</guid>
+      <description>&lt;p&gt;Here, I keep 2 lists for mathematical reading. One for texts I&amp;rsquo;ve enjoyed/am enjoying, and another for texts I plan to read.&lt;/p&gt;
+&lt;h2 id=&#34;good-reads&#34;&gt;Good Reads&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math.brown.edu/streil/papers/LADW/LADW_2024_10-01.pdf&#34;&gt;Linear Algebra Done Wrong&lt;/a&gt; - Sergei Treil
+Absolutely fantastic book on linear algebra. Free to read online, 286 pages of clear motivation and explanations. It is an &lt;em&gt;introduction&lt;/em&gt; to formal mathematics and rigorous proof writing, which makes it possible to follow along without constantly getting totally lost.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cmor-faculty.rice.edu/~cox/stoch/SDE.course.pdf&#34;&gt;AN INTRODUCTION TO STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/a&gt; - Lawrence C. Evans
+I have been trying so hard to find a good introductory text on stochastic calculus, and this is the best one I&amp;rsquo;ve found so far. It skips out on a lot of the nitty-gritty details to focus on the main applications. It is a very readable and well-organized book so far, and includes a motivated crash course on probability theory, perfect for a beginner like me.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;plan-to-read&#34;&gt;Plan to Read&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://csunibo.github.io/analisi-matematica/libri/real-analysis.pdf&#34;&gt;Understanding Analysis&lt;/a&gt; - Stephen Abbott
+I&amp;rsquo;ve read about a fifth of it, it&amp;rsquo;s easy to follow. I plan on finishing it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;study-plan&#34;&gt;Study plan&lt;/h2&gt;
+&lt;h3 id=&#34;probability-and-statistics&#34;&gt;Probability and Statistics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Probability Theory&lt;/li&gt;
+&lt;li&gt;Bayesian Statistics&lt;/li&gt;
+&lt;li&gt;Measure Theory (for a rigorous foundation)&lt;/li&gt;
+&lt;li&gt;Stochastic Processes (e.g., Markov Chains, Brownian Motion)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;optimization-and-information-theory&#34;&gt;Optimization and Information Theory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimization Theory&lt;/li&gt;
+&lt;li&gt;Convex Analysis&lt;/li&gt;
+&lt;li&gt;Information Theory&lt;/li&gt;
+&lt;li&gt;Information Geometry&lt;/li&gt;
+&lt;li&gt;Numerical Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;additional-topics-for-machine-learning&#34;&gt;Additional Topics for Machine Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Algebra (Advanced Topics)
+&lt;ul&gt;
+&lt;li&gt;Matrix Analysis and Spectral Theory&lt;/li&gt;
+&lt;li&gt;Advanced Topics in Linear Algebra (e.g., Jordan Canonical Form, Matrix Calculus)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Random Matrix Theory (to understand the dynamics of complex models)&lt;/li&gt;
+&lt;li&gt;Tensor Calculus&lt;/li&gt;
+&lt;li&gt;Basic Physics (to understand the principles that inspire machine learning, such as dynamics, forces, and conservation laws)&lt;/li&gt;
+&lt;li&gt;Statistical Mechanics (understanding concepts like entropy, energy landscapes, and Boltzmann distribution)&lt;/li&gt;
+&lt;li&gt;Graph Theory and Combinatorics (for graph-based machine learning)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;analysis&#34;&gt;Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functional Analysis&lt;/li&gt;
+&lt;li&gt;Real Analysis&lt;/li&gt;
+&lt;li&gt;Tensor Analysis&lt;/li&gt;
+&lt;li&gt;Complex Analysis&lt;/li&gt;
+&lt;li&gt;Topology and Differential Geometry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;geometric-algebra-and-lie-theory&#34;&gt;Geometric Algebra and Lie Theory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Geometric Algebra (Clifford Algebra)&lt;/li&gt;
+&lt;li&gt;Lie Theory&lt;/li&gt;
+&lt;li&gt;Abstract Algebra (for Lie Groups and Representation Theory)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;additional-complementary-topics&#34;&gt;Additional Complementary Topics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Category Theory&lt;/li&gt;
+&lt;li&gt;Differential Equations (rigorous)
+&lt;ul&gt;
+&lt;li&gt;Ordinary Differential Equations (ODEs)&lt;/li&gt;
+&lt;li&gt;Partial Differential Equations (PDEs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Computational Complexity and Algorithm Design
+&lt;ul&gt;
+&lt;li&gt;Algorithm Analysis and Efficiency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

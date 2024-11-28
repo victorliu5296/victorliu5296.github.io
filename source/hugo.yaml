@@ -44,9 +44,7 @@ params:
     subtitle: "Hi, I'm Victor. I'm a high school student. I enjoy mathematics. Here, I share my thoughts and ideas, maybe notes at times. Check [about me](/about-me/) for more information."
     buttons:
       - name: Blog posts
-        url: posts
-      - name: Math Notes
-        url: math-notes
+        url: blog
 
   socialIcons:
     - name: github
@@ -68,11 +66,6 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-
-permalinks:
-  categories: "/categories/:slug/" # Links to category pages
-  topics: "/topics/:slug/"         # Links to topic pages
-  posts: "/:categories/:topics/:slug/" # Clean post URLs
 
 menu:
   main:
@@ -100,6 +93,27 @@ menu:
       name: Search
       url: /search/
       weight: 99999
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+    parser:
+      attribute:
+        block: true
+        title: true
 
 outputs:
   home:

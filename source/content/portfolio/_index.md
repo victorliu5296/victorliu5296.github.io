@@ -1,7 +1,7 @@
 ---
 title: "Portfolio"
-date: 2024-08-20T12:00:00-04:00
-draft: false
+description: "Explore my projects and portfolio"
+summary: "Explore my projects and portfolio"
 ---
 
 # Portfolio
