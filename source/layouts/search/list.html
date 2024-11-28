@@ -1,15 +1,31 @@
-<h1>{{ .Title }}</h1>
-<p>{{ .Description }}</p>
+{{- define "main" }}
 
-<!-- Search Bar -->
-<form action="/search/" method="get">
-    <input type="text" name="q" placeholder="Search..." />
-    <button type="submit">Search</button>
-</form>
+<header class="page-header">
+    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+
+<div id="searchbox">
+    <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default " Type to search..." }}"
+        aria-label="Search input" type="search" autocomplete="off" maxlength="64">
+    <ul id="searchResults" aria-label="Search results"></ul>
+</div>
 
 <!-- Navigation Buttons -->
 <div class="search-navigation">
-    <a href="/categories/" class="btn">Browse Categories</a>
-    <a href="/topics/" class="btn">Browse Topics</a>
-    <a href="/tags/" class="btn">Browse Tags</a>
+    <a href="/categories/" class="button">Browse Categories</a>
+    <a href="/topics/" class="button">Browse Topics</a>
+    <a href="/tags/" class="button">Browse Tags</a>
 </div>
+
+{{- end }}
