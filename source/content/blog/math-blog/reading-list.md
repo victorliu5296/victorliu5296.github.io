@@ -1,3 +1,12 @@
+---
+title: 'Math Reading List'
+date: 2024-12-15
+math: katex
+tags:
+- Reading List
+weight: 100
+---
+
 Here, I keep 2 lists for mathematical reading. One for texts I've enjoyed/am enjoying, and another for texts I plan to read.
 
 ## Good Reads

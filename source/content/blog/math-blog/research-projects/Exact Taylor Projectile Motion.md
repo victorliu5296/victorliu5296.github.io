@@ -2,8 +2,14 @@
 title: 'Exact Taylor Projectile Motion'
 date: 2024-09-07T09:24:44-04:00
 math: katex
-categories: [Physics]
-tags: [Mathematics, Physics, Projectile Motion, Taylor Expansion, Vectors]
+categories:
+- Research Projects
+- Kinematics
+tags: 
+- Physics
+- Projectile Motion
+- Taylor Polynomial
+- Vector
 weight: 100
 draft: false
 ---
@@ -99,6 +105,8 @@ To solve for \( t \), standard polynomial real root-finding methods like bisecti
 
 Please note that there are not always real roots and therefore possible intersections given the initial conditions. For instance, this could happen if the target is moving away in the same direction as the projectile at a greater or equal rate than the projectile at any given time. In this case, the solution is undefined.
 
+<a id="example-failure-case"></a>An example failure case can be found in the [b2studios algorithm](./polynomial-real-root-finding/algorithms/b2studios%20Algorithm/b2studios%20Algorithm.md#example-failure-case) post.
+
 ### 3. Minimizing the Magnitude of the Initial Vector
 
 A somewhat more challenging task arises when we seek to minimize the magnitude \( \| x_{\text{projectile}}^{(i)} \| \) under the given initial conditions. Under what conditions does such a minimum exist, and how do we calculate it?
@@ -109,7 +117,7 @@ We need to analyze the problem using calculus. We wish to minimize the function:
 \left\| x_{\text{projectile}}^{(i)} \right\|(t) := i! \left\| \sum_{k=0}^{n} \frac{t^{k-i}}{k!} s^{(k)} \right\|
 \]
 
-The norm is convex and nonnegative, and squaring preserves convexity. Also, scaling by a nonnegative constant does not affect the minimum either, so we'll drop the \( i! \) factor. Therefore, we minimize the following rational function, which is more specifically a Laurent polynomial in \( t \):
+We can square this objective function to simplify: a nonnegative objective preserves ordering since monotonicity is preserved over the nonnegative real numbers. Also, scaling by a nonnegative constant does not affect the minimum either, so we'll drop the \( i! \) factor. Therefore, we minimize the following rational function, which is more specifically a Laurent polynomial in \( t \):
 
 \[
 \begin{aligned}
