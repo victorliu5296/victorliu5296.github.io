@@ -628,9 +628,89 @@ $$
 
 This integral form allows us to calculate probabilities for any interval $[a, b]$ smoothly, without the need for piecewise calculations.
 
-- [ ] Todo: Expected value, variance, standard deviation
-- [ ] CDF (motivate when PDF does not exist, etc.)
-- [ ] Gaussian distribution
+## Statistical Measures: From Density to Description
+
+Having established how probability density functions (PDFs) work, let's explore how we can use them to describe and understand random variables through key statistical measures.
+
+### Expected Value: The Center of Mass
+
+Just as physical objects have a center of mass, probability distributions have an expected value (or mean). This value represents the "average" outcome we would expect to see over many trials. Funnily enough, we call it the "expected value", even though we sometimes couldn't even actually attain it. For instance, the expected value of a coin flip is $0.5$, but we can't actually flip the coin and get a result of $0.5$. Rather, what it means is that if we flip the coin many times and record the results, we expect the average of those results to be close to $0.5$.
+
+Hopefully, from the previous section, you're now more comfortable with the concept of weighting different parts with different numbers according to their "importance".  Similarly, we can weight different outcomes of a random variable with different probabilities according to their "importance".
+
+#### For Discrete Random Variables
+
+For a discrete random variable $X$ with probability mass function $P(X = x_i)$, the expected value is:
+
+$$
+E[X] = \sum_{i} x_i P(X = x_i)
+$$
+
+#### For Continuous Random Variables
+
+For a continuous random variable with probability density function $f(x)$, the expected value becomes:
+
+$$
+E[X] = \int_{-\infty}^{\infty} x f(x) \, dx
+$$
+
+This integral can be thought of as a weighted average, where each possible value $x$ is weighted by its probability density $f(x)$.
+
+### Variance and Standard Deviation: Measuring Spread
+
+While the expected value tells us where the center of our distribution lies, it doesn't tell us how spread out the values are. This is where variance and standard deviation come in.
+
+#### Variance
+
+The variance measures the average squared distance from the mean:
+
+For discrete distributions:
+$$
+\text{Var}(X) = E[(X - E[X])^2] = \sum_{i} (x_i - E[X])^2 P(X = x_i)
+$$
+
+For continuous distributions:
+$$
+\text{Var}(X) = \int_{-\infty}^{\infty} (x - E[X])^2 f(x) \, dx
+$$
+
+#### Standard Deviation
+
+The standard deviation, denoted $\sigma$, is simply the square root of the variance:
+$$
+\sigma = \sqrt{\text{Var}(X)}
+$$
+
+The standard deviation is particularly useful because it's in the same units as our original measurements.
+
+### Example: Normal Distribution
+
+Let's apply these concepts to the most important continuous probability distribution: the normal (or Gaussian) distribution.
+
+The normal distribution has probability density function:
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+$$
+
+where:
+- $\mu$ is the mean (expected value)
+- $\sigma$ is the standard deviation
+
+This distribution is particularly important because:
+1. It appears naturally in many real-world phenomena
+2. The Central Limit Theorem tells us that sums of independent random variables tend toward normal distributions
+3. It has many convenient mathematical properties
+
+### Properties of Distributions
+
+Beyond these basic measures, probability distributions have several important properties:
+
+1. **Mode**: The value(s) where the probability density function reaches its maximum
+2. **Median**: The value that divides the distribution into two equal probability areas
+3. **Skewness**: A measure of asymmetry in the distribution
+4. **Kurtosis**: A measure of how heavy the tails are compared to a normal distribution
+
+These properties help us understand the shape and behavior of different probability distributions, which is crucial for statistical modeling and inference.
 
 ---
 
@@ -861,7 +941,50 @@ This approach of defining random variables as functions and decoupling them from
 
 4. **Unification**: It provides a unified treatment of discrete and continuous probability, as well as more exotic probability spaces.
 
-In our next section, we'll explore how this framework allows us to handle more sophisticated probabilistic concepts, and how it enables us to tackle complex problems in probability and statistics.
+This definition is also very crucial because it gives us a concrete way to define and calculate the expected value of any random variable, no matter how complicated its underlying sample space is. We will see this in action in the next section.
+
+## Revisiting the Expected Value
+
+In a measure-theoretic probability framework, the expected value is defined as the integral of the random variable with respect to its probability measure. This definition generalizes all earlier cases into a single one:
+
+$$
+E[X] = \int_{\Omega} X \, dP
+$$
+
+where $X$ is a random variable and $P$ is its probability measure.
+
+This definition seems a bit abstract, but it's actually quite simple. Let's break it down with an example and use some physical intuition to make it more concrete.
+
+### Example: Weighted Coin Flips
+
+Let's say we have a coin with two sides, and we want to assign different weights to each side. We can represent this as a random variable $X$ with possible values $\{H, T\}$ and probability mass function $P(X = H) = 0.6$ and $P(X = T) = 0.4$.
+
+Now, let's say we want to know the expected value of this random variable. We can do this by integrating the random variable with respect to its probability measure:
+
+$$
+E[X] = \int_{\Omega} X \, dP = \int_{\Omega} \begin{cases}
+0.6 & \text{if } X = H \\
+0.4 & \text{if } X = T
+\end{cases} \, dP
+$$
+
+We can simplify this integral by breaking it down into two separate integrals:
+
+$$
+E[X] = 0.6 \int_{\Omega} X \, dP + 0.4 \int_{\Omega} X \, dP = 0.6 \int_{\Omega} X \, dP + 0.4 \int_{\Omega} X \, dP
+$$
+
+The first integral is just the probability mass function $P(X = H)$, which is $0.6$. The second integral is the probability mass function $P(X = T)$, which is $0.4$. Therefore, the expected value is:
+
+$$
+E[X] = 0.6 \cdot 0.6 + 0.4 \cdot 0.4 = 0.24
+$$
+
+This result is the same as the expected value of a fair coin flip, which is $0.5$.
+
+
+TODO: De Finetti notation article
+
 
 ## References and Further Reading {#references}
 
