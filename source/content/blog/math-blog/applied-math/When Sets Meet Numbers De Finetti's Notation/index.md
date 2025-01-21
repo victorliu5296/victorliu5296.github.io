@@ -235,7 +235,61 @@ This reasoning extends naturally to \( n \)-events:
 P(A_1 \cap A_2 \cap \cdots \cap A_n) = P(A_1) \cdot P(A_2 | A_1) \cdot \cdots \cdot P(A_n | A_1 \cap \cdots \cap A_{n-1}).
 \]
 
-Adding exercises to your blog post can help readers solidify their understanding and apply the concepts they've learned. Here are some exercise ideas that align with the content of your post:
+### Monte Carlo Simulation and Parallelization
+
+Monte Carlo simulation estimates \( E[X] \) by averaging \( N \) independent samples:
+
+\[
+\hat{E}[X] = \frac{1}{N} \sum_{i=1}^N X_i,
+\]
+
+where \( X_1, X_2, \dots, X_N \) are random samples of \( X \). By the **linearity of expectation**:
+
+\[
+E\left[\sum_{i=1}^N X_i\right] = \sum_{i=1}^N E[X_i],
+\]
+
+this process is inherently parallelizable. 
+
+1. **Divide Work**: Split \( N \) samples into \( k \) groups, each computing a partial sum \( S_j \):
+   \[
+   S_j = \sum_{i=1}^{m} X_i^{(j)}, \quad m = \frac{N}{k}.
+   \]
+
+2. **Aggregate Results**: Combine the partial sums:
+   \[
+   S_{\text{total}} = \sum_{j=1}^k S_j.
+   \]
+
+3. **Compute Estimate**: Finalize the result:
+   \[
+   \hat{E}[X] = \frac{1}{N} S_{\text{total}}.
+   \]
+
+This approach reduces computation time and scales well in distributed systems.
+
+#### Example: Estimating \( \pi \)
+
+To estimate \( \pi \), consider the unit circle inscribed in a square. Generate \( N \) random points \((x, y)\) uniformly in \([0, 1] \times [0, 1]\). Count points inside the quarter-circle (\( x^2 + y^2 \leq 1 \)).
+
+1. **Partial Computation**: Each process computes:
+   \[
+   S_j = \sum_{i=1}^m \mathbb{1}(x_i^2 + y_i^2 \leq 1).
+   \]
+
+2. **Aggregate and Estimate**:
+   \[
+   \hat{\pi} = 4 \cdot \frac{S_{\text{total}}}{N}.
+   \]
+
+#### Applications
+
+- **Finance**: Estimate portfolio risks, option prices (e.g., Black-Scholes model).
+- **Physics**: Simulate particle interactions, thermodynamic systems.
+- **Machine Learning**: Approximate gradients, validate models.
+- **Engineering**: Solve high-dimensional integrals in design and optimization.
+
+Parallelizing Monte Carlo simulations accelerates these computations, enabling solutions to large-scale problems efficiently.
 
 ### Exercises
 
