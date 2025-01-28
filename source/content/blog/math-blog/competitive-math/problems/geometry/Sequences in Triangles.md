@@ -68,7 +68,7 @@ $$d^2+2d-24=0$$
 
 $$(d+6)(d-4)=0$$
 
-Hence $d=4$. By the sine area formula, we have $\text{Area} = \frac{1}{2}6\cdot(6+4)\sin 120^\circ=30 \cdot \frac{\sqrt{3}}{2}=\boxed{15\sqrt{3}}$.
+Hence $d=4$. Since $120^\circ \ge 90^\circ$, it must be opposite to the hypotenuse $6+2d$, so the angle is included between the legs. By the sine area formula, we have $\text{Area} = \frac{1}{2}6\cdot(6+4)\sin 120^\circ=30 \cdot \frac{\sqrt{3}}{2}=\boxed{15\sqrt{3}}$.
 
 ---
 
@@ -79,5 +79,51 @@ There is a triangle that is not equilateral whose side lengths form
 a geometric sequence, and the measures of whose angles form an
 arithmetic sequence.
 
-Show that this statement is true by finding such a triangle or prove that it is false
-by demonstrating that there cannot be such a triangle.
+Show that this statement is true by finding such a triangle or prove that it is false by demonstrating that there cannot be such a triangle.
+
+**Solution**:
+
+Some potential paths involve showing that if the triangle is not equilateral, then the triangle inequality is violated, or some sides are negative.
+
+Let the angles be $60^\circ-d<60^\circ<60^\circ+d$.
+Let the side lengths be $\frac{1}{a}<1<a$. (We can scale to a similar triangle.)
+
+We have information about all sides and angles, and we want to relate them all. This is a hint to use the sine law.
+
+$$\frac{1}{a\sin{60^\circ-d}}=\frac{1}{\sin{60^\circ}}=\frac{a}{\sin{60^\circ+d}}$$
+
+We can isolate $a$ in the above equations to eliminate it:
+
+$$a = \frac{\sin{60^\circ}}{\sin{60^\circ-d}}$$
+
+and 
+
+$$a=\frac{\sin{60^\circ+d}}{\sin{60^\circ}}$$
+
+Equating the two:
+
+$$\sin(60^\circ-d)\sin(60^\circ+d)=\sin^2{60^\circ}=\frac{3}{4}$$
+
+Using the addition formulas:
+
+$$\sin{60^\circ-d}=\sin{60^\circ}\cos{d}-\cos{60^\circ}\sin{d}$$
+
+$$=\frac{\sqrt{3}}{2}\cos d - \frac{1}{2}\sin{d}$$
+
+$$\sin{60^\circ+d}=\frac{\sqrt{3}}{2}\cos d + \frac{1}{2}\sin{d}$$
+
+Hence:
+
+$$\frac{3}{4}\cos^2 d - \frac{1}{4}\sin^2{d}=\frac{3}{4}$$
+
+$$3\cos^2 d - \sin^2{d}=3$$
+
+Substitute $\sin^2{d}=1-\cos^2{d}$:
+
+$$3\cos^2 d - 1+\cos^2{d}=3$$
+
+$$\cos^2{d} = 1$$
+
+$$\cos{d} = \pm 1$$
+
+The only solutions are multiples of $180^\circ$, so the only valid case in triangles would be $d=0^\circ$, but that means it is equilateral. Proof complete.
