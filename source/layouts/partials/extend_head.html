@@ -1,5 +1,15 @@
 {{ if (eq $.Page.Params.math "katex") }}
-    {{ partial "helpers/katex.html" . }}
+{{ partial "helpers/katex.html" . }}
 {{ else if (eq $.Page.Params.math "mathjax") }}
-    {{ partial "helpers/mathjax.html" . }}
+{{ partial "helpers/mathjax.html" . }}
+{{ end }}
+
+{{ if .Page.Store.Get "hasMermaid" }}
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: document.body.classList.contains('dark') ? 'dark' : 'default'
+    });
+</script>
 {{ end }}
