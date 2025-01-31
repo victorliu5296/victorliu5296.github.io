@@ -26,6 +26,6 @@ More specifically, you will commonly face one of the following 2 scenarios. Ther
 
 In cases where you need to relate all angles and sides, you of course use the law of sines since it has the best form for that.
 
-You can see somes examples in [Sequences in Triangles]({{< relref "blog\math-blog\competitive-math\problems\geometry\Sequences in Triangles.md" >}}).
+You can see somes examples in [Sequences in Triangles]({{< relref "blog/math-blog/competitive-math/problems/geometry/Sequences in Triangles.md" >}}).
 
 Also, these laws are very useful in combination with Ptolemy's theorem in cyclic quadrilaterals. But that deserves its own post.
