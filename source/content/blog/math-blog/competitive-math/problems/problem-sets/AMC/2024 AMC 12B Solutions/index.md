@@ -2,9 +2,9 @@
 title: '2024 AMC 12B Solutions'
 date: 2025-01-14T20:49:44-05:00
 math: katex
-description: "Solutions to the 2024 American Mathematical Competitions 12B problems."
+description: "Solutions to the 2024 American Mathematics Competitions 12B problems."
 categories:
-  - AMC
+  - AMC 12
 weight: 100
 draft: false
 ---
