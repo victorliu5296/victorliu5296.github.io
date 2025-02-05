@@ -182,6 +182,8 @@ $\textbf{(A) } 24 \qquad \textbf{(B) } 42 \qquad \textbf{(C) } 60 \qquad \textbf
 
 #### Solution
 
+
+
 ### Problem 25
 Let $m\ge 5$ be an odd integer, and let $D(m)$ denote the number of quadruples $(a_1, a_2, a_3, a_4)$ of distinct integers with $1\le a_i \le m$ for all $i$ such that $m$ divides $a_1+a_2+a_3+a_4$. There is a polynomial\[q(x) = c_3x^3+c_2x^2+c_1x+c_0\]such that $D(m) = q(m)$ for all odd integers $m\ge 5$. What is $c_1?$
 
@@ -249,7 +251,7 @@ The linear coefficient is $(-1)(-2)+(-1)(-3)+(-2)(-3) = \boxed{\textbf{(E) }11}$
 1. While there are 4 variable numbers, the answer is a cubic polynomial, hinting that we are constrainted to only 3 degrees of freedom.
 2. Noticing the rotational symmetry, we can create equivalence classes with one valid quadruple in each class to calculate the number of valid cases.
 
-##### Fragile Assumptio
+##### Fragile Assumptions
 
 1. Here, $m$ must be an odd integer. The $\ge 5$ condition is simply to ensure we can select a quadriple. In fact, we can prove that $D(m) \ne q(m)$ for any even integer $m \ge 4$.
 
@@ -258,7 +260,7 @@ The linear coefficient is $(-1)(-2)+(-1)(-3)+(-2)(-3) = \boxed{\textbf{(E) }11}$
 
 ##### Alternative Paths
 
-1. Direct attack
+1. Direct Attack
 
 If you are familiar enough with this type of problem, you might immediately recognize the approach of equivalence classes. [MRENTHUSIASM's solution](https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_12A_Problems/Problem_25#:~:text=.%20What%20is-,Solution%201%20(Complete%20Residue%20System),-%5Bedit%5D) on AoPS is an example of this: he directly forms equivalence classes from all quadruples, finding $D(m)=\frac{1}{m}m(m-1)(m-2)(m-3)$ for odd $m$ since $\gcd(m,4)=1$.
 
@@ -276,11 +278,56 @@ Now, consider which $a$ values are valid. We have from $1$ to $m$ such values, b
 
 The bad cases are hence $3(m-1)(m-2)$ cases. Hence, the total number of cases is $m(m-1)(m-2)-3(m-1)(m-2)=(m-1)(m-2)(m-3)$.
 
-3. Combinatorial Argument
+3. Sum of First Perfect Squares
 
+Unfinished idea: let $m=2n+1$, biject $\{1,2,\dots,m\}$ to $\{-n,\dots,n\}$ (still a complete residue system). WLOG let $a<b\le 0\le c<d$ (multiply by 4!). Cases: $c=0$ or $c>0$ (similarly for $b$ by symmetry). Counting cases for $c>0$ including cases with potential clashes between $a,b,c,d$, we get $2[1^2+2^2+\dots+(n-1)^2]$. By symmetry in $(a,b)$ and $(c,d)$ we divide by 2. Also, the number of cases where $a,b,c,d$ clash with $c>0$ is equivalent to the number of cases where $c=0$. Hence the answer is $4![1^2+2^2+\dots+(n-1)^2]=(m-1)(m-2)(m-3)$.
 
+4. Generating Function
 
-4. Interpolation Bash
+We can bash with generating functions.
+
+We count ordered quadruples \((a_1, a_2, a_3, a_4)\) of distinct integers from \(\{1,2,\dots,m\}\) whose sum is divisible by \(m\) using generating functions and a roots-of-unity filter.
+
+### Step 1: Generating Function
+Define the bivariate generating function:
+\[
+F(z,x) = \prod_{a=1}^{m} (1+z\,x^a),
+\]
+where \(z\) marks chosen elements and \(x\) records their sum. The coefficient \([z^4]F(z,x)\) counts 4-element subsets of \(\{1,2,\dots,m\}\) with sum \(k\).
+
+The generating function for ordered quadruples is:
+\[
+G(x) = 24 \cdot [z^4]F(z,x).
+\]
+
+### Step 2: Extracting Multiples of \(m\)
+To count sums divisible by \(m\), we apply a roots-of-unity filter:
+\[
+D(m) = \frac{1}{m} \sum_{j=0}^{m-1} G(\omega^j),
+\]
+where \(\omega\) is a primitive \(m\)th root of unity.
+
+- For \(j=0\), \(F(z,1) = (1+z)^m\), so \([z^4]F(z,1) = \binom{m}{4}\).
+- For \(j\neq 0\), \(\prod_{a=1}^{m} (1+z\omega^{ja}) = 1+z^m\), contributing zero to \([z^4]\).
+
+Thus, 
+\[
+D(m) = \frac{24}{m} \binom{m}{4} = (m-1)(m-2)(m-3).
+\]
+
+### Step 3: Extracting Coefficients
+Expanding,
+\[
+D(m) = m^3 - 6m^2 + 11m - 6.
+\]
+Matching with \(q(m) = c_3m^3 + c_2m^2 + c_1m + c_0\), we find \(c_1 = 11\).
+
+### Final Answer:
+\[
+\boxed{11}
+\]
+
+5. Interpolation Bash
 
 Since a cubic polynomial has $4$ coefficients, it suffices to compute $D(m)$ for $4$ values of $m$ and it will interpolate the polynomial by solving a linear system. This is shown in [Steven Chen's solution](https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_12A_Problems/Problem_25#:~:text=~MRENTHUSIASM-,Solution%202%20(Symmetric%20Congruent%20Numbers%20and%20Interpolation),-%5Bedit%5D).
 
