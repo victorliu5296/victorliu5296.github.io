@@ -182,7 +182,19 @@ $\textbf{(A) } 24 \qquad \textbf{(B) } 42 \qquad \textbf{(C) } 60 \qquad \textbf
 
 #### Solution
 
+I computed based on the diagram that
 
+$$(AB - \cos(60^\circ)AD - CD)^2 + (\sin(60^\circ)AD)^2 = BC^2.$$
+
+In actuality, this simplifies to the cosine law, which is the simpler way to interpret the diagram by translating $BC$:
+
+$$(18 - CD)^2 + AD^2 - 2(18-CD)AD\cos(60^\circ) = BC^2.$$
+
+Since $\cos(60^\circ) = \frac{1}{2}$, we can simplify to:
+
+$$(18 - CD)^2 + AD^2 - (18-CD)AD = BC^2.$$
+
+This is now the part that requires some 
 
 ### Problem 25
 Let $m\ge 5$ be an odd integer, and let $D(m)$ denote the number of quadruples $(a_1, a_2, a_3, a_4)$ of distinct integers with $1\le a_i \le m$ for all $i$ such that $m$ divides $a_1+a_2+a_3+a_4$. There is a polynomial\[q(x) = c_3x^3+c_2x^2+c_1x+c_0\]such that $D(m) = q(m)$ for all odd integers $m\ge 5$. What is $c_1?$
