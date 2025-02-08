@@ -194,7 +194,46 @@ Since $\cos(60^\circ) = \frac{1}{2}$, we can simplify to:
 
 $$(18 - CD)^2 + AD^2 - (18-CD)AD = BC^2.$$
 
-This is now the part that requires some 
+This is now the part that requires some forward-thinking for an efficient solution. First, let's simplify the notation. Let $a=AD,b=BC,c=CD$. Then we have that
+
+$$(18-c)^2+a^2-(18-c)a=b^2.$$
+
+How should we factor this efficiently? Recall that we have an arithmetic progression, such that $BC,CD,DA$ will be a permutation of $18-k,18-2k,18-3k$. So we want to have a difference between 2 terms on each side of the equation so that we are left with some multiple of $k$, which will cancel on both sides and leave us with only an affine equation to solve rather than a quadratic equation.
+
+The following works for this purpose:
+
+$$(18-c)(18-c-a)=(b-a)(b+a). \qquad (*)$$
+
+Now, we could consider the $3!=6$ permutations of $a,b,c$, but there is a very clever symmetry argument here (solution 2 on AoPS). Consider the arithmetic sequence $\{18-k,18-2k,18-3k\}$. Now look at these colorings:
+
+$$\textcolor{blue}{18-3k},\textcolor{red}{18-2k},\textcolor{blue}{18-k},\textcolor{red}{18}$$
+
+$$\textcolor{blue}{18-3k},\textcolor{blue}{18-2k},\textcolor{red}{18-k},\textcolor{red}{18}$$
+
+As you can see, in an arithmetic progression of $4$ terms, in both these cases, the absolute difference between the colored terms is equal. The only remaining case is:
+
+$$\textcolor{blue}{18-3k},\textcolor{red}{18-2k},\textcolor{red}{18-k},\textcolor{blue}{18}$$
+
+First, we take care of the trivial case $k=0$. In this case, we add $\colorbox{yellow}{18}$ as a value to the answer.
+
+Hence, we can break the casework in $18-c$, and plug into $(*)$ to find solutions.
+1. $18-c=3k$
+2. $18-c\ne 3k$
+
+Case 1: $18-c=3k$
+Case 1.1: $a=18-2k$, $b=18-k$
+$3k(5k-18)=k(36-3k) \implies k=5$, yielding $13+8+3=3\cdot 8=\colorbox{yellow}{24}$.
+Case 1.2: $a=18-k$, $b=18-2k$
+$3k(4k-18)=-k(36-3k) \implies k=2$, yielding $16+14+12=3\cdot 14=\colorbox{yellow}{42}$.
+
+Case 2: $18-c\ne 3k$
+Then either $b-a=18-c$ or $b-a=-(18-c)$.
+Case 2.1: $b-a=18-c$
+Then $(*)$ simplifies to $18-c-a=b+a$, contradicting $18-c-a=b-2a<b+a$.
+Case 2.2: $b-a=-(18-c)$
+Then $(*)$ simplifies to $18-c=-b$, contradicting $18-c>0>-b$.
+
+Hence, the answer is $18+24+42=\boxed{\textbf{(E) } 84}$.
 
 ### Problem 25
 Let $m\ge 5$ be an odd integer, and let $D(m)$ denote the number of quadruples $(a_1, a_2, a_3, a_4)$ of distinct integers with $1\le a_i \le m$ for all $i$ such that $m$ divides $a_1+a_2+a_3+a_4$. There is a polynomial\[q(x) = c_3x^3+c_2x^2+c_1x+c_0\]such that $D(m) = q(m)$ for all odd integers $m\ge 5$. What is $c_1?$
