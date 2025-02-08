@@ -375,3 +375,6 @@ A cube has edge length 4 m. One end of a rope of length 5 m is anchored to the c
 
 #### Solution
 
+Let's unfold the cube to make it easier to visualize, with the top face at the origin. We can never reach the bottom face, so discard it. Drawing the path with constant length, we have a disk of radius $5$ that is cut off in some corners. So we need to determine the angle of the sectors.
+
+Using trig, we get $\cos \theta = \frac{2}{5}$, so $\theta = \cos^{-1}\frac{2}{5} \approx 66.4218215^\circ$. The relevant angle is the complement, so $90-66.4218215^\circ = 23.5781785$. Then, the area is 8 of these sectors plus 8 triangles filling the gaps, giving $8\cdot (\frac{23.5781785}{360} \cdot \pi (5)^2 + \frac{1}{2}(2)(\sqrt{5^2-2^2}-2))\approx 61.8122902$. Hence $100A\approx 6181.22902$, giving $6181$ when rounded to the nearest integer. The last two digits are $\boxed{81}$.
