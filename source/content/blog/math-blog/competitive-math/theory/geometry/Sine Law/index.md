@@ -1,5 +1,5 @@
 ---
-title: 'Sine Law (With Circimradius)'
+title: 'Sine Law (With Circumradius)'
 date: 2025-01-26T20:42:33-05:00
 summary: "An overview of the sine law, including the extended version with the circumradius"
 math: katex
