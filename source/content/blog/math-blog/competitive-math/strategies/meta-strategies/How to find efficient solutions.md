@@ -29,10 +29,11 @@ draft: false
 ---
 
 ### **2. Exploit Symmetry**  
-**Cues:** Interchangeable variables (e.g., \(x, y, z\)), homogeneous equations.  
+**Cues:** Interchangeable variables (e.g., \(x, y, z\)), homogeneous equations, geometric figures, combinatorics scenarios.  
 **Strategies:**  
-- **Assume equality first:** Test \(x = y\) in symmetric equations.  
+- **Consider the symmetry:** Think of group theory: given a problem environment, try to find a set and a group action that preserves some invariants.
 - **Group identical cases:** For repeated objects, use multinomial coefficients instead of enumerating permutations.  
+- **Assume equality first:** Test \(x = y\) in symmetric equations.  
 
 **Example:**  
 - *Problem:* Solve \(x + y + z = 6\), \(xy + yz + zx = 11\).  
@@ -108,7 +109,3 @@ draft: false
 5. **Avoid Brute Force:** Modular cycles, Pigeonhole Principle.  
 6. **Divide and Conquer:** Split into cases or precompute.  
 7. **Verify:** Back-substitute and test edge cases.  
-
----
-
-By internalizing these strategies, you’ll transform complex problems into structured, solvable puzzles. Keep this guide handy for competitions or practice—it’s your roadmap to efficiency!
