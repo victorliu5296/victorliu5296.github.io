@@ -1,4 +1,6 @@
 <figure style="display: flex; flex-direction: column; align-items: center;">
-    <img src="{{ .Get " src" }}" alt="{{ .Get " alt" }}" style="max-width: 100%; height: auto;">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto;">
+    {{ if .Get "caption" }}
     <figcaption>{{ .Get "caption" }}</figcaption>
+    {{ end }}
 </figure>
