@@ -169,7 +169,7 @@ There are functions $f(x)$ with the following properties:
 For each such function, the value of $f (pq)$ is calculated. The sum of all possible values of $f (pq)$ is $S$. What are the rightmost two digits of $S$?
 
 ### Problem 25
-In the 3 × 3 grid shown, the central square contains the integer 5. The remaining eight squares contain $a, b, c, d, e, f, g, h$, which are each to be replaced with an integer from 1 to 9, inclusive.
+In the $3 \times 3$ grid shown, the central square contains the integer 5. The remaining eight squares contain $a, b, c, d, e, f, g, h$, which are each to be replaced with an integer from 1 to 9, inclusive.
 
 $$
 \begin{array}{|c|c|c|}
@@ -183,3 +183,76 @@ $$
 Integers can be repeated. There are $N$ ways to complete the grid so that the sums of the integers along each row, along each column, and along the two main diagonals are all divisible by 5.
 
 What are the rightmost two digits of $N$?
+
+#### Solution
+
+Let's evaluate the degrees of freedom. We have the congruences mod $5$:
+
+$$
+\begin{cases}
+a + h \equiv 0 \\
+b + g \equiv 0 \\
+c + f \equiv 0 \\
+d + e \equiv 0 \\
+a+b+c \equiv 0 \\
+f+g+h \equiv 0 \\
+a+d+f \equiv 0 \\
+c+e+h \equiv 0 \\
+\end{cases}
+$$
+
+Notice that if we, for instance, fix $a$, then $h$ is determined. If we then fix $b$, then $g$ is determined. Consequently, $c$ and $f$ will be determined, then $d$ and $e$ will also fall. Hence, we have $2$ degrees of freedom. WLOG, we fix $a$ and $b$ (but notice that this choice is arbitrary and symmetric). Our grid becomes $(\text{mod }5)$:
+
+$$
+\begin{array}{|c|c|c|}
+\hline
+a & b & -(a+b) \\\hline
+-(2a+b) & 0 & 2a+b \\\hline
+a+b & -b & -a \\\hline
+\end{array}
+$$
+
+Notice that for integers from $1$ to $9$, we cover every residue mod $5$ twice except for $0$. In fact, if $a\equiv 0$, then $a=5$, and similarly for the rest. Let's consider the cases on the residues of $a,b,a+b,2a+b$.
+
+Notice that if you set two values to $5$, then every other value must be $5$.
+
+Let's consider the cases:
+1. 2 values are $5$ (all values are $5$)
+2. 1 value is $5$
+3. 0 values are $5$
+
+Case 1: 2 values are $5$.
+We must fill the entire grid with $5$.
+Subanswer 1: $1$
+
+Case 2: 1 value is $5$.
+WLOG ($\times 4$) fix $a=5$.
+
+$$
+\begin{array}{|c|c|c|}
+\hline
+0 & b & -b \\\hline
+-b & 0 & b \\\hline
+b & -b & 0 \\\hline
+\end{array}
+$$
+
+Then, we have $4$ non-zero residues for $b$, and the remaining non-zero residues are determined. We have 2 possible associated values for each non-zero residue, yielding $4\cdot 4 \cdot 2^6=2^{10}$ grids.
+Subanswer 2: $2^{10}=1024$
+
+Case 3: 0 values are $5$.
+
+$$
+\begin{array}{|c|c|c|}
+\hline
+a & b & -(a+b) \\\hline
+-(2a+b) & 0 & 2a+b \\\hline
+a+b & -b & -a \\\hline
+\end{array}
+$$
+
+We need: $a\not\equiv 0$, $b\not\equiv 0$, $a+b\not\equiv 0$, $2a+b\not\equiv 0$.
+In other words, the residues are $a\in\{1,2,3,4\}$, $b\in\{1,2,3,4\}$, such that $b \not\equiv -a$, $b\not\equiv -2a$ (these residues are distinct, $-a\not\equiv -2a$ since $a\not\equiv 0$), so we have $4\cdot 2=8$ choices of residues before the rest is determined. Then, each of $8$ non-zero residues has $2$ value choices, so $8\cdot 2^8=2^{11}$ grids.
+Subanswer 3: $2^{11}=2048$
+
+Hence, the total is $N=1+1024+2048=3073\equiv \boxed{73} \pmod{100}$.
