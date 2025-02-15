@@ -373,7 +373,7 @@ a+b & -b & -a \\\hline
 $$
 
 We need: $a\not\equiv 0$, $b\not\equiv 0$, $a+b\not\equiv 0$, $2a+b\not\equiv 0$.
-In other words, the residues are $a\in\{1,2,3,4\}$, $b\in\{1,2,3,4\}$, such that $b \not\equiv -a$, $b\not\equiv -2a$ (these residues are distinct, $-a\not\equiv -2a$ since $a\not\equiv 0$), so we have $4\cdot 2=8$ choices of residues before the rest is determined. Then, each of $8$ non-zero residues has $2$ value choices, so $8\cdot 2^8=2^{11}$ grids.
+In other words, the residues are $a\in\{1,2,3,4\}$, $b\in\{1,2,3,4\}$, such that $b \not\equiv -a$, $b\not\equiv -2a$ (these residues are distinct, $-a\not\equiv -2a$ since $a\not\equiv 0$), so we have $4\cdot 2=8$ choices of residues for $a,b$ before the rest is determined. Then, each of $8$ non-zero residues has $2$ value choices, so $8\cdot 2^8=2^{11}$ grids.
 Subanswer 3: $2^{11}=2048$
 
 Hence, the total is $N=1+1024+2048=3073\equiv \boxed{73} \pmod{100}$.
