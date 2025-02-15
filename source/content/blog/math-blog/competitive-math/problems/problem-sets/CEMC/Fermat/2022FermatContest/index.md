@@ -333,7 +333,7 @@ a+b & -b & -a \\\hline
 \end{array}
 $$
 
-Notice that for integers from $1$ to $9$, we cover every residue mod $5$ twice except for $0$. In fact, if $a\equiv 0$, then $a=5$, and similarly for the rest. Let's consider the cases on the residues of $a,b,a+b,2a+b$.
+Notice that for integers from $1$ to $9$, we cover every residue mod $5$ twice except for $0$. In fact, if $x\equiv 0$ here, then $x=5$. Let's consider the cases on the residues of $a,b,a+b,2a+b$.
 
 Notice that if you set two values to $5$, then every other value must be $5$.
 
