@@ -6,10 +6,11 @@ summary: "An overview of the Fast Fourier Transform"
 categories:
   - Applied Mathematics
 topics:
-  - Fourier Analysis
+  - Analysis
 tags:
   - Fast Fourier Transform  
-  - Harmonic Analysis  
+  - Harmonic Analysis
+  - Fourier Analysis  
   - Signal Processing
   - Fourier Transform  
   - Discrete Fourier Transform  

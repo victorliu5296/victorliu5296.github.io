@@ -6,10 +6,11 @@ summary: "An overview of the Discrete Fourier Transform (DFT)"
 categories:
   - Applied Mathematics
 topics:
-  - Fourier Analysis
+  - Analysis
 tags:
   - Discrete Fourier Transform
   - Harmonic Analysis
+  - Fourier Analysis
   - Signal Processing
   - Mathematical Analysis
   - Dirac Delta Function

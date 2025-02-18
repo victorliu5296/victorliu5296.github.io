@@ -6,8 +6,13 @@ summary: "An elementary derivation of the PDF of a normal distribution."
 categories:
   - Applied Mathematics
 topics:
-  - [Statistics, Probability Theory]
-tags: [Normal Distribution, Maximum Entropy, Central Limit Theorem]
+  - Probability Theory
+  - Statistics
+  - Entropy
+tags:
+  - Normal Distribution
+  - Maximum Entropy
+  - Central Limit Theorem
 weight: 100
 ---
 

@@ -7,11 +7,11 @@ categories:
   - Applied Mathematics
 topics:
   - Measure Theory
+  - Probability Theory
 tags:
   - Borel Measure
   - Lebesgue Measure
   - Vitali Set
-  - Probability Theory
   - Non-Measurable Sets
   - Probability Measure
 weight: 100

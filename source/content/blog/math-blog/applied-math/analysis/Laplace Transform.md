@@ -6,13 +6,12 @@ summary: "An overview of the Laplace Transform"
 categories:
   - Applied Mathematics
 topics:
-  - Fourier Analysis
+  - Analysis
 tags:
   - Laplace Transform
   - Harmonic Analysis
+  - Fourier Analysis
   - Signal Processing
-  - Mathematical Analysis
-  - Applied Mathematics
   - Differential Equations
 weight: 100
 draft: false

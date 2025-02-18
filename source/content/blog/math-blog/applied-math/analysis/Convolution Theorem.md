@@ -6,11 +6,12 @@ summary: "Using the FFT to accelerate convolution computation"
 categories:
   - Applied Mathematics
 topics:
-  - Fourier Analysis
+  - Analysis
 tags:
   - Convolution Theorem
   - Fast Fourier Transform
-  - Applied Mathematics
+  - Harmonic Analysis
+  - Fourier Analysis
   - Discrete Fourier Transform
   - Algorithms
 weight: 100

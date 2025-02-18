@@ -6,6 +6,8 @@ summary: "A short description of the Dirac Delta Function (Distribution)"
 categories:
   - Applied Mathematics
 topics:
+  - Analysis
+tags:
   - Dirac Delta Function
   - Probability Distributions
   - Fourier Analysis

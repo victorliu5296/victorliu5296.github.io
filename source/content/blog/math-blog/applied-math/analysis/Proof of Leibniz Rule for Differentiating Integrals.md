@@ -6,6 +6,7 @@ math: katex
 categories:
   - Applied Mathematics
 topics:
+  - Analysis
   - Calculus
 tags:
   - Proof

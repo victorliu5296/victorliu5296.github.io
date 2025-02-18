@@ -6,6 +6,7 @@ math: katex
 categories:
   - Applied Mathematics
 topics:
+  - Probability Theory
   - Statistics
 tags:
   - Proof

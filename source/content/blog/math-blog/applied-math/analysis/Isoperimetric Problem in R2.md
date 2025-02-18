@@ -6,9 +6,11 @@ math: katex
 categories:
   - Applied Mathematics
 topics:
+  - Analysis
+  - Optimization
+tags:
   - Variational Calculus
   - Calculus of Variations
-tags:
   - Proof
   - Isoperimetric Problem
   - Circle

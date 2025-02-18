@@ -6,13 +6,13 @@ summary: "An overview of the Fourier Transform"
 categories:
   - Applied Mathematics
 topics:
-  - Fourier Analysis
+  - Analysis
 tags: 
   - Fourier Transform
   - Harmonic Analysis
+  - Fourier Analysis
   - Signal Processing
   - Dirac Delta Function
-  - Signal Processing
 weight: 100
 draft: false
 ---
