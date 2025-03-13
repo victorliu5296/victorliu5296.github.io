@@ -32,3 +32,7 @@ $$
     <img src="./circular_inversion.svg" alt="Circular Inversion And Thin Lens" style="max-width: 100%; height: auto;">
     <figcaption>Circular Inversion And Thin Lens</figcaption>
 </figure>
+
+
+Related:
+https://physics.stackexchange.com/questions/552648/circular-inversion-and-spherical-mirrors
